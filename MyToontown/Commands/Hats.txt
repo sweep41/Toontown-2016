@@ -1,0 +1,66 @@
+
+LIST CREATED BY MISTER SORRY/ALEX
+
+usage:
+~hat 1
+
+1 = type
+
+types:
+
+1 baseball
+2 safari
+3 ribbon
+4 heart
+5 topHat
+6 anvil
+7 flowerPot
+8 sandbag
+9 weight
+10 fez
+11 golfHat
+12 partyHat
+13 pillBox
+14  crown
+15 cowboyHat
+16 pirateHat
+17 propellerHat
+18 fishingHat
+19 sombreroHat
+20 strawHat
+21 sunHat
+22 antenna
+23 beeHiveHairdo
+24 bowler
+25 chefsHat
+26 detective
+27 feathers
+28 fedora
+29 mickeysBandConductorHat
+30 nativeAmericanFeather
+31 pompadorHairdo
+32 princess
+33 robinHoodHat
+34 romanHelmet
+35 spiderAntennaThingy
+36 tiara
+37 vikingHelmet
+38 witch
+39 wizard
+40 conquistadorHelmet
+41 firefighterHelmet
+42 foilPyramid
+43 minersHardhatWithLight
+44 napoleonHat
+45 pilotsCap
+46 policeHat
+47 rainbowAfroWig
+48 sailorHat
+49 carmenMirandaFruitHat
+50 bobbyHat
+51 jugheadHat
+52 winter
+53 bandana
+54 dinosaur
+55 band
+55 birdNest

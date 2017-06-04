@@ -1,0 +1,879 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+[(1280, 800), (1152, 720), (1024, 768), (1024, 640), (800, 600), (800, 500), (640, 480), (720, 480)]
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tt2016-dev
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x10cec8908>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x10cec8908>}
+entering active SC menu
+local
+Traceback (most recent call last):
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1871, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1765, in handleMessageType
+    self.handleGenerateWithRequiredOtherOwner(di)
+  File "toontown/distributed/ToontownClientRepository.py", line 910, in handleGenerateWithRequiredOtherOwner
+    self.handleAvatarResponseMsg(doId, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 363, in handleAvatarResponseMsg
+    localAvatar.initInterface()
+  File "toontown/toon/LocalToon.py", line 370, in initInterface
+    self.loadDisguisePages()
+  File "toontown/toon/LocalToon.py", line 453, in loadDisguisePages
+    self.disguisePage.load()
+  File "toontown/shtiker/DisguisePage.py", line 89, in load
+    self.updatePage()
+  File "toontown/shtiker/DisguisePage.py", line 104, in updatePage
+    self.doTab(self.activeTab)
+  File "toontown/shtiker/DisguisePage.py", line 178, in doTab
+    cog = SuitDNA.suitHeadTypes[cogIndex]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1656, in updateManagers
+    self.particleMgr.doParticles(dt)
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1871, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1765, in handleMessageType
+    self.handleGenerateWithRequiredOtherOwner(di)
+  File "toontown/distributed/ToontownClientRepository.py", line 910, in handleGenerateWithRequiredOtherOwner
+    self.handleAvatarResponseMsg(doId, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 363, in handleAvatarResponseMsg
+    localAvatar.initInterface()
+  File "toontown/toon/LocalToon.py", line 370, in initInterface
+    self.loadDisguisePages()
+  File "toontown/toon/LocalToon.py", line 453, in loadDisguisePages
+    self.disguisePage.load()
+  File "toontown/shtiker/DisguisePage.py", line 89, in load
+    self.updatePage()
+  File "toontown/shtiker/DisguisePage.py", line 104, in updatePage
+    self.doTab(self.activeTab)
+  File "toontown/shtiker/DisguisePage.py", line 178, in doTab
+    cog = SuitDNA.suitHeadTypes[cogIndex]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 108, in processEvent
+    for i in range(event.getNumParameters()):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1656, in updateManagers
+    self.particleMgr.doParticles(dt)
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1871, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1765, in handleMessageType
+    self.handleGenerateWithRequiredOtherOwner(di)
+  File "toontown/distributed/ToontownClientRepository.py", line 910, in handleGenerateWithRequiredOtherOwner
+    self.handleAvatarResponseMsg(doId, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 363, in handleAvatarResponseMsg
+    localAvatar.initInterface()
+  File "toontown/toon/LocalToon.py", line 370, in initInterface
+    self.loadDisguisePages()
+  File "toontown/toon/LocalToon.py", line 453, in loadDisguisePages
+    self.disguisePage.load()
+  File "toontown/shtiker/DisguisePage.py", line 89, in load
+    self.updatePage()
+  File "toontown/shtiker/DisguisePage.py", line 104, in updatePage
+    self.doTab(self.activeTab)
+  File "toontown/shtiker/DisguisePage.py", line 178, in doTab
+    cog = SuitDNA.suitHeadTypes[cogIndex]
+IndexError: list index out of range
+Exception occurred while processing Func-resetHeight-3 of Sequence-6:
+Sequence-6:
+  0.000 Sequence-6 {
+  0.000   Parallel-5 {
+  0.000     LerpHprInterval-2: hpr from 0 0 0 to 0 0 0 dur 0
+  0.000     LerpScaleInterval-3: scale from 1 1 1 to 0.5 0.5 0.5 dur 0
+  0.000   }
+  0.000   *Func-resetHeight-3
+  0.000 }
+
+Traceback (most recent call last):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "/Developer/Panda3D/direct/interval/Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "/Developer/Panda3D/direct/interval/FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown/toon/Toon.py", line 786, in resetHeight
+    if hasattr(self, 'style') and self.style:
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 108, in processEvent
+    for i in range(event.getNumParameters()):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1656, in updateManagers
+    self.particleMgr.doParticles(dt)
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1871, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1765, in handleMessageType
+    self.handleGenerateWithRequiredOtherOwner(di)
+  File "toontown/distributed/ToontownClientRepository.py", line 910, in handleGenerateWithRequiredOtherOwner
+    self.handleAvatarResponseMsg(doId, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 363, in handleAvatarResponseMsg
+    localAvatar.initInterface()
+  File "toontown/toon/LocalToon.py", line 370, in initInterface
+    self.loadDisguisePages()
+  File "toontown/toon/LocalToon.py", line 453, in loadDisguisePages
+    self.disguisePage.load()
+  File "toontown/shtiker/DisguisePage.py", line 89, in load
+    self.updatePage()
+  File "toontown/shtiker/DisguisePage.py", line 104, in updatePage
+    self.doTab(self.activeTab)
+  File "toontown/shtiker/DisguisePage.py", line 178, in doTab
+    cog = SuitDNA.suitHeadTypes[cogIndex]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1821, in __collisionLoop
+    self.cTrav.traverse(self.render)
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "/Developer/Panda3D/direct/interval/Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "/Developer/Panda3D/direct/interval/FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown/toon/Toon.py", line 786, in resetHeight
+    if hasattr(self, 'style') and self.style:
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 108, in processEvent
+    for i in range(event.getNumParameters()):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1656, in updateManagers
+    self.particleMgr.doParticles(dt)
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1871, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1765, in handleMessageType
+    self.handleGenerateWithRequiredOtherOwner(di)
+  File "toontown/distributed/ToontownClientRepository.py", line 910, in handleGenerateWithRequiredOtherOwner
+    self.handleAvatarResponseMsg(doId, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 363, in handleAvatarResponseMsg
+    localAvatar.initInterface()
+  File "toontown/toon/LocalToon.py", line 370, in initInterface
+    self.loadDisguisePages()
+  File "toontown/toon/LocalToon.py", line 453, in loadDisguisePages
+    self.disguisePage.load()
+  File "toontown/shtiker/DisguisePage.py", line 89, in load
+    self.updatePage()
+  File "toontown/shtiker/DisguisePage.py", line 104, in updatePage
+    self.doTab(self.activeTab)
+  File "toontown/shtiker/DisguisePage.py", line 178, in doTab
+    cog = SuitDNA.suitHeadTypes[cogIndex]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "otp/distributed/TelemetryLimiter.py", line 44, in _enforceLimits
+    for obj in self._objs.itervalues():
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1821, in __collisionLoop
+    self.cTrav.traverse(self.render)
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "/Developer/Panda3D/direct/interval/Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "/Developer/Panda3D/direct/interval/FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown/toon/Toon.py", line 786, in resetHeight
+    if hasattr(self, 'style') and self.style:
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 108, in processEvent
+    for i in range(event.getNumParameters()):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1656, in updateManagers
+    self.particleMgr.doParticles(dt)
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1871, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1765, in handleMessageType
+    self.handleGenerateWithRequiredOtherOwner(di)
+  File "toontown/distributed/ToontownClientRepository.py", line 910, in handleGenerateWithRequiredOtherOwner
+    self.handleAvatarResponseMsg(doId, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 363, in handleAvatarResponseMsg
+    localAvatar.initInterface()
+  File "toontown/toon/LocalToon.py", line 370, in initInterface
+    self.loadDisguisePages()
+  File "toontown/toon/LocalToon.py", line 453, in loadDisguisePages
+    self.disguisePage.load()
+  File "toontown/shtiker/DisguisePage.py", line 89, in load
+    self.updatePage()
+  File "toontown/shtiker/DisguisePage.py", line 104, in updatePage
+    self.doTab(self.activeTab)
+  File "toontown/shtiker/DisguisePage.py", line 178, in doTab
+    cog = SuitDNA.suitHeadTypes[cogIndex]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "otp/nametag/NametagGroup.py", line 244, in __tickTask
+    nametag.tick()
+  File "otp/nametag/Nametag3d.py", line 46, in tick
+    distance = self.innerNP.getPos(NametagGlobals.camera).length()
+  File "otp/distributed/TelemetryLimiter.py", line 44, in _enforceLimits
+    for obj in self._objs.itervalues():
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1821, in __collisionLoop
+    self.cTrav.traverse(self.render)
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "/Developer/Panda3D/direct/interval/Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "/Developer/Panda3D/direct/interval/FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown/toon/Toon.py", line 786, in resetHeight
+    if hasattr(self, 'style') and self.style:
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 108, in processEvent
+    for i in range(event.getNumParameters()):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1656, in updateManagers
+    self.particleMgr.doParticles(dt)
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1871, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1765, in handleMessageType
+    self.handleGenerateWithRequiredOtherOwner(di)
+  File "toontown/distributed/ToontownClientRepository.py", line 910, in handleGenerateWithRequiredOtherOwner
+    self.handleAvatarResponseMsg(doId, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 363, in handleAvatarResponseMsg
+    localAvatar.initInterface()
+  File "toontown/toon/LocalToon.py", line 370, in initInterface
+    self.loadDisguisePages()
+  File "toontown/toon/LocalToon.py", line 453, in loadDisguisePages
+    self.disguisePage.load()
+  File "toontown/shtiker/DisguisePage.py", line 89, in load
+    self.updatePage()
+  File "toontown/shtiker/DisguisePage.py", line 104, in updatePage
+    self.doTab(self.activeTab)
+  File "toontown/shtiker/DisguisePage.py", line 178, in doTab
+    cog = SuitDNA.suitHeadTypes[cogIndex]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "otp/nametag/NametagGroup.py", line 244, in __tickTask
+    nametag.tick()
+  File "otp/nametag/Nametag3d.py", line 46, in tick
+    distance = self.innerNP.getPos(NametagGlobals.camera).length()
+  File "otp/nametag/NametagGroup.py", line 244, in __tickTask
+    nametag.tick()
+  File "otp/nametag/Nametag3d.py", line 46, in tick
+    distance = self.innerNP.getPos(NametagGlobals.camera).length()
+  File "otp/distributed/TelemetryLimiter.py", line 44, in _enforceLimits
+    for obj in self._objs.itervalues():
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1821, in __collisionLoop
+    self.cTrav.traverse(self.render)
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "/Developer/Panda3D/direct/interval/Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "/Developer/Panda3D/direct/interval/FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown/toon/Toon.py", line 786, in resetHeight
+    if hasattr(self, 'style') and self.style:
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 108, in processEvent
+    for i in range(event.getNumParameters()):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1656, in updateManagers
+    self.particleMgr.doParticles(dt)
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1871, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1765, in handleMessageType
+    self.handleGenerateWithRequiredOtherOwner(di)
+  File "toontown/distributed/ToontownClientRepository.py", line 910, in handleGenerateWithRequiredOtherOwner
+    self.handleAvatarResponseMsg(doId, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 363, in handleAvatarResponseMsg
+    localAvatar.initInterface()
+  File "toontown/toon/LocalToon.py", line 370, in initInterface
+    self.loadDisguisePages()
+  File "toontown/toon/LocalToon.py", line 453, in loadDisguisePages
+    self.disguisePage.load()
+  File "toontown/shtiker/DisguisePage.py", line 89, in load
+    self.updatePage()
+  File "toontown/shtiker/DisguisePage.py", line 104, in updatePage
+    self.doTab(self.activeTab)
+  File "toontown/shtiker/DisguisePage.py", line 178, in doTab
+    cog = SuitDNA.suitHeadTypes[cogIndex]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "otp/speedchat/SCMenu.py", line 256, in finalizeMenu
+    self.finalize()
+  File "otp/speedchat/SCMenu.py", line 279, in finalize
+    member.reparentTo(hidden)
+  File "otp/nametag/NametagGroup.py", line 244, in __tickTask
+    nametag.tick()
+  File "otp/nametag/Nametag3d.py", line 46, in tick
+    distance = self.innerNP.getPos(NametagGlobals.camera).length()
+  File "otp/nametag/NametagGroup.py", line 244, in __tickTask
+    nametag.tick()
+  File "otp/nametag/Nametag3d.py", line 46, in tick
+    distance = self.innerNP.getPos(NametagGlobals.camera).length()
+  File "otp/distributed/TelemetryLimiter.py", line 44, in _enforceLimits
+    for obj in self._objs.itervalues():
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1821, in __collisionLoop
+    self.cTrav.traverse(self.render)
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "/Developer/Panda3D/direct/interval/Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "/Developer/Panda3D/direct/interval/FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown/toon/Toon.py", line 786, in resetHeight
+    if hasattr(self, 'style') and self.style:
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 108, in processEvent
+    for i in range(event.getNumParameters()):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1656, in updateManagers
+    self.particleMgr.doParticles(dt)
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1871, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1765, in handleMessageType
+    self.handleGenerateWithRequiredOtherOwner(di)
+  File "toontown/distributed/ToontownClientRepository.py", line 910, in handleGenerateWithRequiredOtherOwner
+    self.handleAvatarResponseMsg(doId, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 363, in handleAvatarResponseMsg
+    localAvatar.initInterface()
+  File "toontown/toon/LocalToon.py", line 370, in initInterface
+    self.loadDisguisePages()
+  File "toontown/toon/LocalToon.py", line 453, in loadDisguisePages
+    self.disguisePage.load()
+  File "toontown/shtiker/DisguisePage.py", line 89, in load
+    self.updatePage()
+  File "toontown/shtiker/DisguisePage.py", line 104, in updatePage
+    self.doTab(self.activeTab)
+  File "toontown/shtiker/DisguisePage.py", line 178, in doTab
+    cog = SuitDNA.suitHeadTypes[cogIndex]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1832, in __audioLoop
+    for x in self.sfxManagerList:
+  File "otp/speedchat/SCMenu.py", line 256, in finalizeMenu
+    self.finalize()
+  File "otp/speedchat/SCMenu.py", line 279, in finalize
+    member.reparentTo(hidden)
+  File "otp/nametag/NametagGroup.py", line 244, in __tickTask
+    nametag.tick()
+  File "otp/nametag/Nametag3d.py", line 46, in tick
+    distance = self.innerNP.getPos(NametagGlobals.camera).length()
+  File "otp/nametag/NametagGroup.py", line 244, in __tickTask
+    nametag.tick()
+  File "otp/nametag/Nametag3d.py", line 46, in tick
+    distance = self.innerNP.getPos(NametagGlobals.camera).length()
+  File "otp/distributed/TelemetryLimiter.py", line 44, in _enforceLimits
+    for obj in self._objs.itervalues():
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1821, in __collisionLoop
+    self.cTrav.traverse(self.render)
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "/Developer/Panda3D/direct/interval/Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "/Developer/Panda3D/direct/interval/FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown/toon/Toon.py", line 786, in resetHeight
+    if hasattr(self, 'style') and self.style:
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 108, in processEvent
+    for i in range(event.getNumParameters()):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1656, in updateManagers
+    self.particleMgr.doParticles(dt)
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1871, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1765, in handleMessageType
+    self.handleGenerateWithRequiredOtherOwner(di)
+  File "toontown/distributed/ToontownClientRepository.py", line 910, in handleGenerateWithRequiredOtherOwner
+    self.handleAvatarResponseMsg(doId, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 363, in handleAvatarResponseMsg
+    localAvatar.initInterface()
+  File "toontown/toon/LocalToon.py", line 370, in initInterface
+    self.loadDisguisePages()
+  File "toontown/toon/LocalToon.py", line 453, in loadDisguisePages
+    self.disguisePage.load()
+  File "toontown/shtiker/DisguisePage.py", line 89, in load
+    self.updatePage()
+  File "toontown/shtiker/DisguisePage.py", line 104, in updatePage
+    self.doTab(self.activeTab)
+  File "toontown/shtiker/DisguisePage.py", line 178, in doTab
+    cog = SuitDNA.suitHeadTypes[cogIndex]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 151, in _garbageCollect
+    gct = GCTrigger()
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1832, in __audioLoop
+    for x in self.sfxManagerList:
+  File "otp/speedchat/SCMenu.py", line 256, in finalizeMenu
+    self.finalize()
+  File "otp/speedchat/SCMenu.py", line 279, in finalize
+    member.reparentTo(hidden)
+  File "otp/nametag/NametagGroup.py", line 244, in __tickTask
+    nametag.tick()
+  File "otp/nametag/Nametag3d.py", line 46, in tick
+    distance = self.innerNP.getPos(NametagGlobals.camera).length()
+  File "otp/nametag/NametagGroup.py", line 244, in __tickTask
+    nametag.tick()
+  File "otp/nametag/Nametag3d.py", line 46, in tick
+    distance = self.innerNP.getPos(NametagGlobals.camera).length()
+  File "otp/distributed/TelemetryLimiter.py", line 44, in _enforceLimits
+    for obj in self._objs.itervalues():
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1821, in __collisionLoop
+    self.cTrav.traverse(self.render)
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "/Developer/Panda3D/direct/interval/Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "/Developer/Panda3D/direct/interval/FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown/toon/Toon.py", line 786, in resetHeight
+    if hasattr(self, 'style') and self.style:
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 108, in processEvent
+    for i in range(event.getNumParameters()):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1656, in updateManagers
+    self.particleMgr.doParticles(dt)
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1871, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1765, in handleMessageType
+    self.handleGenerateWithRequiredOtherOwner(di)
+  File "toontown/distributed/ToontownClientRepository.py", line 910, in handleGenerateWithRequiredOtherOwner
+    self.handleAvatarResponseMsg(doId, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 363, in handleAvatarResponseMsg
+    localAvatar.initInterface()
+  File "toontown/toon/LocalToon.py", line 370, in initInterface
+    self.loadDisguisePages()
+  File "toontown/toon/LocalToon.py", line 453, in loadDisguisePages
+    self.disguisePage.load()
+  File "toontown/shtiker/DisguisePage.py", line 89, in load
+    self.updatePage()
+  File "toontown/shtiker/DisguisePage.py", line 104, in updatePage
+    self.doTab(self.activeTab)
+  File "toontown/shtiker/DisguisePage.py", line 178, in doTab
+    cog = SuitDNA.suitHeadTypes[cogIndex]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1796, in __dataLoop
+    self.dgTrav.traverse(self.dataRootNode)
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 151, in _garbageCollect
+    gct = GCTrigger()
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1832, in __audioLoop
+    for x in self.sfxManagerList:
+  File "otp/speedchat/SCMenu.py", line 256, in finalizeMenu
+    self.finalize()
+  File "otp/speedchat/SCMenu.py", line 279, in finalize
+    member.reparentTo(hidden)
+  File "otp/nametag/NametagGroup.py", line 244, in __tickTask
+    nametag.tick()
+  File "otp/nametag/Nametag3d.py", line 46, in tick
+    distance = self.innerNP.getPos(NametagGlobals.camera).length()
+  File "otp/nametag/NametagGroup.py", line 244, in __tickTask
+    nametag.tick()
+  File "otp/nametag/Nametag3d.py", line 46, in tick
+    distance = self.innerNP.getPos(NametagGlobals.camera).length()
+  File "otp/distributed/TelemetryLimiter.py", line 44, in _enforceLimits
+    for obj in self._objs.itervalues():
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1821, in __collisionLoop
+    self.cTrav.traverse(self.render)
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "/Developer/Panda3D/direct/interval/Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "/Developer/Panda3D/direct/interval/FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown/toon/Toon.py", line 786, in resetHeight
+    if hasattr(self, 'style') and self.style:
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 108, in processEvent
+    for i in range(event.getNumParameters()):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1656, in updateManagers
+    self.particleMgr.doParticles(dt)
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1871, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1765, in handleMessageType
+    self.handleGenerateWithRequiredOtherOwner(di)
+  File "toontown/distributed/ToontownClientRepository.py", line 910, in handleGenerateWithRequiredOtherOwner
+    self.handleAvatarResponseMsg(doId, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 363, in handleAvatarResponseMsg
+    localAvatar.initInterface()
+  File "toontown/toon/LocalToon.py", line 370, in initInterface
+    self.loadDisguisePages()
+  File "toontown/toon/LocalToon.py", line 453, in loadDisguisePages
+    self.disguisePage.load()
+  File "toontown/shtiker/DisguisePage.py", line 89, in load
+    self.updatePage()
+  File "toontown/shtiker/DisguisePage.py", line 104, in updatePage
+    self.doTab(self.activeTab)
+  File "toontown/shtiker/DisguisePage.py", line 178, in doTab
+    cog = SuitDNA.suitHeadTypes[cogIndex]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 108, in processEvent
+    for i in range(event.getNumParameters()):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1796, in __dataLoop
+    self.dgTrav.traverse(self.dataRootNode)
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 151, in _garbageCollect
+    gct = GCTrigger()
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1832, in __audioLoop
+    for x in self.sfxManagerList:
+  File "otp/speedchat/SCMenu.py", line 256, in finalizeMenu
+    self.finalize()
+  File "otp/speedchat/SCMenu.py", line 279, in finalize
+    member.reparentTo(hidden)
+  File "otp/nametag/NametagGroup.py", line 244, in __tickTask
+    nametag.tick()
+  File "otp/nametag/Nametag3d.py", line 46, in tick
+    distance = self.innerNP.getPos(NametagGlobals.camera).length()
+  File "otp/nametag/NametagGroup.py", line 244, in __tickTask
+    nametag.tick()
+  File "otp/nametag/Nametag3d.py", line 46, in tick
+    distance = self.innerNP.getPos(NametagGlobals.camera).length()
+  File "otp/distributed/TelemetryLimiter.py", line 44, in _enforceLimits
+    for obj in self._objs.itervalues():
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1821, in __collisionLoop
+    self.cTrav.traverse(self.render)
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "/Developer/Panda3D/direct/interval/Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "/Developer/Panda3D/direct/interval/FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown/toon/Toon.py", line 786, in resetHeight
+    if hasattr(self, 'style') and self.style:
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 108, in processEvent
+    for i in range(event.getNumParameters()):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1656, in updateManagers
+    self.particleMgr.doParticles(dt)
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1871, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1765, in handleMessageType
+    self.handleGenerateWithRequiredOtherOwner(di)
+  File "toontown/distributed/ToontownClientRepository.py", line 910, in handleGenerateWithRequiredOtherOwner
+    self.handleAvatarResponseMsg(doId, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 363, in handleAvatarResponseMsg
+    localAvatar.initInterface()
+  File "toontown/toon/LocalToon.py", line 370, in initInterface
+    self.loadDisguisePages()
+  File "toontown/toon/LocalToon.py", line 453, in loadDisguisePages
+    self.disguisePage.load()
+  File "toontown/shtiker/DisguisePage.py", line 89, in load
+    self.updatePage()
+  File "toontown/shtiker/DisguisePage.py", line 104, in updatePage
+    self.doTab(self.activeTab)
+  File "toontown/shtiker/DisguisePage.py", line 178, in doTab
+    cog = SuitDNA.suitHeadTypes[cogIndex]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1656, in updateManagers
+    self.particleMgr.doParticles(dt)
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 108, in processEvent
+    for i in range(event.getNumParameters()):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1796, in __dataLoop
+    self.dgTrav.traverse(self.dataRootNode)
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 151, in _garbageCollect
+    gct = GCTrigger()
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1832, in __audioLoop
+    for x in self.sfxManagerList:
+  File "otp/speedchat/SCMenu.py", line 256, in finalizeMenu
+    self.finalize()
+  File "otp/speedchat/SCMenu.py", line 279, in finalize
+    member.reparentTo(hidden)
+  File "otp/nametag/NametagGroup.py", line 244, in __tickTask
+    nametag.tick()
+  File "otp/nametag/Nametag3d.py", line 46, in tick
+    distance = self.innerNP.getPos(NametagGlobals.camera).length()
+  File "otp/nametag/NametagGroup.py", line 244, in __tickTask
+    nametag.tick()
+  File "otp/nametag/Nametag3d.py", line 46, in tick
+    distance = self.innerNP.getPos(NametagGlobals.camera).length()
+  File "otp/distributed/TelemetryLimiter.py", line 44, in _enforceLimits
+    for obj in self._objs.itervalues():
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1821, in __collisionLoop
+    self.cTrav.traverse(self.render)
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "/Developer/Panda3D/direct/interval/Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "/Developer/Panda3D/direct/interval/FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown/toon/Toon.py", line 786, in resetHeight
+    if hasattr(self, 'style') and self.style:
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 108, in processEvent
+    for i in range(event.getNumParameters()):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1656, in updateManagers
+    self.particleMgr.doParticles(dt)
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1871, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1765, in handleMessageType
+    self.handleGenerateWithRequiredOtherOwner(di)
+  File "toontown/distributed/ToontownClientRepository.py", line 910, in handleGenerateWithRequiredOtherOwner
+    self.handleAvatarResponseMsg(doId, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 363, in handleAvatarResponseMsg
+    localAvatar.initInterface()
+  File "toontown/toon/LocalToon.py", line 370, in initInterface
+    self.loadDisguisePages()
+  File "toontown/toon/LocalToon.py", line 453, in loadDisguisePages
+    self.disguisePage.load()
+  File "toontown/shtiker/DisguisePage.py", line 89, in load
+    self.updatePage()
+  File "toontown/shtiker/DisguisePage.py", line 104, in updatePage
+    self.doTab(self.activeTab)
+  File "toontown/shtiker/DisguisePage.py", line 178, in doTab
+    cog = SuitDNA.suitHeadTypes[cogIndex]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "toontown/toon/ToonHead.py", line 919, in __blinkCloseEyes
+    self.eyelids.request('closed')
+  File "/Developer/Panda3D/direct/fsm/ClassicFSM.py", line 248, in request
+    if not self.__currentState:
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1656, in updateManagers
+    self.particleMgr.doParticles(dt)
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 108, in processEvent
+    for i in range(event.getNumParameters()):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1796, in __dataLoop
+    self.dgTrav.traverse(self.dataRootNode)
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 151, in _garbageCollect
+    gct = GCTrigger()
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1832, in __audioLoop
+    for x in self.sfxManagerList:
+  File "otp/speedchat/SCMenu.py", line 256, in finalizeMenu
+    self.finalize()
+  File "otp/speedchat/SCMenu.py", line 279, in finalize
+    member.reparentTo(hidden)
+  File "otp/nametag/NametagGroup.py", line 244, in __tickTask
+    nametag.tick()
+  File "otp/nametag/Nametag3d.py", line 46, in tick
+    distance = self.innerNP.getPos(NametagGlobals.camera).length()
+  File "otp/nametag/NametagGroup.py", line 244, in __tickTask
+    nametag.tick()
+  File "otp/nametag/Nametag3d.py", line 46, in tick
+    distance = self.innerNP.getPos(NametagGlobals.camera).length()
+  File "otp/distributed/TelemetryLimiter.py", line 44, in _enforceLimits
+    for obj in self._objs.itervalues():
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1821, in __collisionLoop
+    self.cTrav.traverse(self.render)
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "/Developer/Panda3D/direct/interval/MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "/Developer/Panda3D/direct/interval/Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "/Developer/Panda3D/direct/interval/FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown/toon/Toon.py", line 786, in resetHeight
+    if hasattr(self, 'style') and self.style:
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 108, in processEvent
+    for i in range(event.getNumParameters()):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1656, in updateManagers
+    self.particleMgr.doParticles(dt)
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1871, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1765, in handleMessageType
+    self.handleGenerateWithRequiredOtherOwner(di)
+  File "toontown/distributed/ToontownClientRepository.py", line 910, in handleGenerateWithRequiredOtherOwner
+    self.handleAvatarResponseMsg(doId, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 363, in handleAvatarResponseMsg
+    localAvatar.initInterface()
+  File "toontown/toon/LocalToon.py", line 370, in initInterface
+    self.loadDisguisePages()
+  File "toontown/toon/LocalToon.py", line 453, in loadDisguisePages
+    self.disguisePage.load()
+  File "toontown/shtiker/DisguisePage.py", line 89, in load
+    self.updatePage()
+  File "toontown/shtiker/DisguisePage.py", line 104, in updatePage
+    self.doTab(self.activeTab)
+  File "toontown/shtiker/DisguisePage.py", line 178, in doTab
+    cog = SuitDNA.suitHeadTypes[cogIndex]
+IndexError: list index out of range

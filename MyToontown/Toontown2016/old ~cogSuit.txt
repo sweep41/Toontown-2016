@@ -1,0 +1,31 @@
+@magicWord(category=CATEGORY_ADMINISTRATOR, types=[str, int])
+def cogSuit(cogName, cogLevel):
+    """
+        Sets the invoker's specified cog suit to the specified level.
+        """
+    invoker = spellbook.getInvoker()
+    cogLevels = invoker.getCogLevels()
+    cogTypes = invoker.getCogTypes()
+    merits = invoker.getCogMerits()
+    validLevelsByCog = CogDisguiseGlobals.getValidLevelsByCog()
+    
+    if cogName not in SuitDNA.suitHeadTypes:
+        return 'Invalid cog name!'
+    elif cogLevel not in validLevelsByCog[cogName]:
+        return 'Invalid cog level!'
+    else:
+        index = CogDisguiseGlobals.dept2deptIndex(SuitDNA.getSuitDept(cogName))
+        cogLevels[index] = cogLevel - 1
+        cogTypes[index] = SuitDNA.getSuitType(cogName) - 1
+        
+        invoker.b_setCogLevels(cogLevels)
+        invoker.b_setCogTypes(cogTypes)
+        
+        merits[index] = CogDisguiseGlobals.getTotalMerits(invoker, index)
+        invoker.b_setCogMerits(merits)
+        
+        if invoker.getCogIndex() != -1:
+            invoker.setCogIndex(index)
+            invoker.d_setCogIndex(index)
+        
+        return 'Cog suit level set!'

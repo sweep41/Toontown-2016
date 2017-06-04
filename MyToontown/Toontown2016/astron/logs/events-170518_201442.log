@@ -1,0 +1,45 @@
+{"_time": "2017-05-18 20:14:42-0400", "type": "log-opened", "sender": "EventLogger", "msg": "Log opened upon Event Logger startup."}
+{"_time": "2017-05-18 20:15:06-0400", "type": "client-connected", "sender": "Client:1000000000", "remote_address": "127.0.0.1:57646", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:15:06-0400", "type": "client-ejected", "sender": "Client:1000000000", "reason_code": "107", "reason_msg": "First packet is not CLIENT_HELLO"}
+{"_time": "2017-05-18 20:16:12-0400", "type": "client-connected", "sender": "Client:1000000001", "remote_address": "127.0.0.1:57649", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:16:12-0400", "type": "client-ejected-security", "sender": "Client:1000000001", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:16:16-0400", "type": "client-connected", "sender": "Client:1000000002", "remote_address": "127.0.0.1:57650", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:16:16-0400", "type": "client-ejected-security", "sender": "Client:1000000002", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:16:30-0400", "type": "client-connected", "sender": "Client:1000000003", "remote_address": "127.0.0.1:57651", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:16:30-0400", "type": "client-ejected-security", "sender": "Client:1000000003", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:16:51-0400", "type": "client-connected", "sender": "Client:1000000004", "remote_address": "127.0.0.1:57652", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:16:51-0400", "type": "client-ejected-security", "sender": "Client:1000000004", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:16:51-0400", "type": "client-connected", "sender": "Client:1000000005", "remote_address": "127.0.0.1:57653", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:16:51-0400", "type": "client-ejected-security", "sender": "Client:1000000005", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:16:52-0400", "type": "client-connected", "sender": "Client:1000000006", "remote_address": "127.0.0.1:57655", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:16:52-0400", "type": "client-ejected-security", "sender": "Client:1000000006", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:16:52-0400", "type": "client-connected", "sender": "Client:1000000007", "remote_address": "127.0.0.1:57656", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:16:52-0400", "type": "client-ejected-security", "sender": "Client:1000000007", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:16:52-0400", "type": "client-connected", "sender": "Client:1000000008", "remote_address": "127.0.0.1:57657", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:16:52-0400", "type": "client-ejected-security", "sender": "Client:1000000008", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:16:52-0400", "type": "client-connected", "sender": "Client:1000000009", "remote_address": "127.0.0.1:57658", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:16:52-0400", "type": "client-ejected-security", "sender": "Client:1000000009", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:16:52-0400", "type": "client-connected", "sender": "Client:1000000010", "remote_address": "127.0.0.1:57659", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:16:52-0400", "type": "client-ejected-security", "sender": "Client:1000000010", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:16:52-0400", "type": "client-connected", "sender": "Client:1000000011", "remote_address": "127.0.0.1:57660", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:16:52-0400", "type": "client-ejected-security", "sender": "Client:1000000011", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:16:52-0400", "type": "client-connected", "sender": "Client:1000000012", "remote_address": "127.0.0.1:57661", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:16:52-0400", "type": "client-ejected-security", "sender": "Client:1000000012", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:16:53-0400", "type": "client-connected", "sender": "Client:1000000013", "remote_address": "127.0.0.1:57662", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:16:53-0400", "type": "client-ejected-security", "sender": "Client:1000000013", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:16:53-0400", "type": "client-connected", "sender": "Client:1000000014", "remote_address": "127.0.0.1:57663", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:16:53-0400", "type": "client-ejected-security", "sender": "Client:1000000014", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:16:53-0400", "type": "client-connected", "sender": "Client:1000000015", "remote_address": "127.0.0.1:57664", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:16:53-0400", "type": "client-ejected-security", "sender": "Client:1000000015", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:16:53-0400", "type": "client-connected", "sender": "Client:1000000016", "remote_address": "127.0.0.1:57665", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:16:53-0400", "type": "client-ejected-security", "sender": "Client:1000000016", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:17:02-0400", "type": "client-connected", "sender": "Client:1000000017", "remote_address": "127.0.0.1:57666", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:17:02-0400", "type": "client-ejected-security", "sender": "Client:1000000017", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:17:19-0400", "type": "client-connected", "sender": "Client:1000000018", "remote_address": "127.0.0.1:57667", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:17:19-0400", "type": "client-ejected-security", "sender": "Client:1000000018", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:17:20-0400", "type": "client-connected", "sender": "Client:1000000019", "remote_address": "127.0.0.1:57668", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:17:20-0400", "type": "client-ejected-security", "sender": "Client:1000000019", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:17:20-0400", "type": "client-connected", "sender": "Client:1000000020", "remote_address": "127.0.0.1:57669", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:17:20-0400", "type": "client-ejected-security", "sender": "Client:1000000020", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-18 20:17:21-0400", "type": "client-connected", "sender": "Client:1000000021", "remote_address": "127.0.0.1:57670", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-18 20:17:21-0400", "type": "client-ejected-security", "sender": "Client:1000000021", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}

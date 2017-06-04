@@ -1,0 +1,122 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tt2016-dev
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x135550D0>}
+entering active SC menu
+local
+0
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+Reading DNA file... phase_4/dna/storage_TT.dna
+Reading DNA file... phase_4/dna/storage_TT_sz.dna
+Reading DNA file... phase_4/dna/toontown_central_sz.dna
+fisherman origin:  render/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+frame rate: 36.0 fps|0.025d|0 avs||432|434||0x15ad|0x0405|332.0MB|410.9MB|1023.5MB|318|nt.2.6.1|2.293,2.293|1,1 cpus|OpenGL
+entering active SC menu
+entering active SC menu
+entering active SC menu
+frame rate: 33.0 fps|0.009d|2 avs||732|734||0x15ad|0x0405|353.9MB|475.7MB|1023.5MB|350|nt.2.6.1|2.293,2.293|1,1 cpus|OpenGL
+frame rate: 29.2 fps|0.010d|2 avs||1032|1034||0x15ad|0x0405|359.5MB|481.4MB|1023.5MB|353|nt.2.6.1|2.293,2.293|1,1 cpus|OpenGL
+frame rate: 27.1 fps|0.013d|2 avs||1332|1334||0x15ad|0x0405|362.3MB|484.4MB|1023.5MB|355|nt.2.6.1|2.293,2.293|1,1 cpus|OpenGL
+frame rate: 27.5 fps|0.013d|2 avs||1632|1634||0x15ad|0x0405|364.9MB|487.1MB|1023.5MB|356|nt.2.6.1|2.293,2.293|1,1 cpus|OpenGL
+Reading DNA file... phase_8/dna/storage_DG.dna
+Reading DNA file... phase_8/dna/storage_DG_sz.dna
+Reading DNA file... phase_8/dna/daisys_garden_sz.dna
+fisherman origin:  render/loader_data/daisysGarden/fishing_pond_1/npc_fisherman_origin_0
+frame rate: 8.2 fps|0.278d|4 avs||1933|1934||0x15ad|0x0405|327.2MB|526.1MB|1023.5MB|389|nt.2.6.1|2.293,2.293|1,1 cpus|OpenGL
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage_TT.dna
+Reading DNA file... phase_4/dna/storage_TT_sz.dna
+Reading DNA file... phase_4/dna/toontown_central_sz.dna
+fisherman origin:  render/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+ignoring InputState-forward
+entering active SC menu
+local
+1
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+Reading DNA file... phase_4/dna/storage_TT.dna
+Reading DNA file... phase_4/dna/storage_TT_sz.dna
+Reading DNA file... phase_4/dna/toontown_central_sz.dna
+fisherman origin:  render/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+Reading DNA file... phase_5/dna/storage_town.dna
+Reading DNA file... phase_5/dna/storage_TT_town.dna
+Reading DNA file... phase_5/dna/toontown_central_2200.dna
+DNALandmarkBuilding sb42:toon_landmark_hqTT_DNARoot did not find **/*suit_building_origin
+fisherman origin:  render/town_top_level/toontownCentral/2236/fishing_pond_1/npc_fisherman_origin_0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage_TT_sz.dna
+Reading DNA file... phase_4/dna/toontown_central_sz.dna
+fisherman origin:  render/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+Reading DNA file... phase_5/dna/storage_town.dna
+Reading DNA file... phase_5/dna/storage_TT_town.dna
+Reading DNA file... phase_5/dna/toontown_central_2100.dna
+DNALandmarkBuilding sb71:toon_landmark_hqTT_DNARoot did not find **/*suit_building_origin
+fisherman origin:  render/town_top_level/toontownCentral/@@2156/fishing_pond_1/npc_fisherman_origin_0
+fisherman origin:  render/town_top_level/toontownCentral/@@2156/fishing_pond_1/npc_fisherman_origin_0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage_TT_sz.dna
+Reading DNA file... phase_4/dna/toontown_central_sz.dna
+fisherman origin:  render/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+frame rate: 14.0 fps|0.027d|4 avs||2443|2444||0x15ad|0x0405|455.6MB|766.6MB|1023.5MB|796|nt.2.6.1|2.293,2.293|1,1 cpus|OpenGL
+entering active SC menu
+entering active SC menu
+entering active SC menu
+entering active SC menu
+entering active SC menu
+entering active SC menu
+ignoring InputState-forward

@@ -1,0 +1,77 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tt2016-dev
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x143E96E8>}
+entering active SC menu
+local
+0
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+ignoring InputState-forward
+{}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x144E0210>}
+entering active SC menu
+local
+0
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+frame rate: 17.9 fps|0.008d|16 avs||580|588||0x15ad|0x0405|323.4MB|425.8MB|1023.5MB|521|nt.2.6.1|2.295,2.295|1,1 cpus|OpenGL
+frame rate: 16.0 fps|0.015d|16 avs||880|888||0x15ad|0x0405|323.7MB|426.0MB|1023.5MB|521|nt.2.6.1|2.295,2.295|1,1 cpus|OpenGL
+frame rate: 15.3 fps|0.012d|16 avs||1180|1188||0x15ad|0x0405|164.4MB|426.8MB|1023.5MB|523|nt.2.6.1|2.295,2.295|1,1 cpus|OpenGL
+frame rate: 11.9 fps|0.031d|16 avs||1480|1488||0x15ad|0x0405|164.3MB|426.8MB|1023.5MB|523|nt.2.6.1|2.295,2.295|1,1 cpus|OpenGL
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+frame rate: 12.8 fps|0.022d|17 avs||1780|1788||0x15ad|0x0405|206.1MB|455.7MB|1023.5MB|563|nt.2.6.1|2.295,2.295|1,1 cpus|OpenGL
+frame rate: 8.3 fps|0.021d|18 avs||2080|2088||0x15ad|0x0405|154.5MB|456.3MB|1023.5MB|564|nt.2.6.1|2.295,2.295|1,1 cpus|OpenGL
+frame rate: 8.2 fps|0.023d|18 avs||2380|2388||0x15ad|0x0405|138.1MB|456.3MB|1023.5MB|565|nt.2.6.1|2.295,2.295|1,1 cpus|OpenGL
+frame rate: 7.9 fps|0.031d|18 avs||2680|2688||0x15ad|0x0405|137.4MB|456.3MB|1023.5MB|566|nt.2.6.1|2.295,2.295|1,1 cpus|OpenGL
+frame rate: 6.9 fps|0.034d|18 avs||2980|2988||0x15ad|0x0405|137.2MB|456.3MB|1023.5MB|566|nt.2.6.1|2.295,2.295|1,1 cpus|OpenGL
+frame rate: 8.2 fps|0.015d|18 avs||3280|3288||0x15ad|0x0405|136.4MB|456.3MB|1023.5MB|567|nt.2.6.1|2.295,2.295|1,1 cpus|OpenGL
+frame rate: 8.6 fps|0.012d|18 avs||3580|3588||0x15ad|0x0405|136.4MB|456.3MB|1023.5MB|567|nt.2.6.1|2.295,2.295|1,1 cpus|OpenGL
+ignoring InputState-forward
+entering active SC menu
+local
+0
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage_TT.dna
+Reading DNA file... phase_4/dna/storage_TT_sz.dna
+Reading DNA file... phase_4/dna/toontown_central_sz.dna
+fisherman origin:  render/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_6/dna/storage_OZ.dna
+Reading DNA file... phase_6/dna/storage_OZ_sz.dna
+Reading DNA file... phase_6/dna/outdoor_zone_sz.dna
+TIMER startTime 11040
+ignoring InputState-forward
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x144E0210>}

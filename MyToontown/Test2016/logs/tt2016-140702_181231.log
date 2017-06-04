@@ -1,0 +1,113 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tt2016-dev
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x143FD6E8>}
+entering active SC menu
+local
+0
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+Reading DNA file... phase_6/dna/storage_OZ.dna
+Reading DNA file... phase_6/dna/storage_OZ_sz.dna
+Reading DNA file... phase_6/dna/outdoor_zone_sz.dna
+TIMER startTime 4765
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Battle Event localtoon-battle-event-3
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Battle Event localtoon-battle-event-9
+Reading DNA file... phase_8/dna/storage_BR.dna
+Reading DNA file... phase_8/dna/storage_BR_sz.dna
+Reading DNA file... phase_8/dna/the_burrrgh_sz.dna
+empty flat building with no walls
+DNALandmarkBuilding sb11:toon_landmark_BR_pet_shop_DNARoot did not find **/*suit_building_origin
+fisherman origin:  render/loader_data/theBurrrgh/fishing_pond_1/npc_fisherman_origin_0
+fisherman origin:  hidden/loader_data/theBurrrgh/fishing_pond_1/npc_fisherman_origin_0
+Reading DNA file... phase_5/dna/storage_town.dna
+Reading DNA file... phase_8/dna/storage_BR_town.dna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.dna
+frame rate: 17.7 fps|0.051d|4 avs||384|399||0x15ad|0x0405|396.9MB|547.9MB|1023.5MB|433|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+Battle Event localtoon-battle-event-15
+ignoring InputState-forward
+entering active SC menu
+local
+0
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+entering active SC menu
+entering active SC menu
+entering active SC menu
+entering active SC menu
+entering active SC menu
+Battle Event localtoon-battle-event-21
+chooseFireOpenShot <function avatarBehindShot at 0x102BD970>
+chooseFireOpenShot <function avatarCloseUpThreeQuarterLeftFireShot at 0x102BDDF0>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+chooseFireOpenShot <function avatarCloseUpThrowShot at 0x102BD7F0>
+chooseFireOpenShot <function avatarCloseUpThreeQuarterLeftFireShot at 0x102BDDF0>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+chooseFireOpenShot <function avatarCloseUpThrowShot at 0x102BD7F0>
+chooseFireOpenShot <function suitGroupThreeQuarterLeftBehindShot at 0x102BD6F0>
+frame rate: 19.7 fps|0.017d|41 avs||1003|1018||0x15ad|0x0405|445.4MB|672.7MB|1023.5MB|687|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+chooseFireOpenShot <function avatarCloseUpThreeQuarterRightShot at 0x102BD830>
+chooseFireOpenShot <function avatarCloseUpThreeQuarterLeftFireShot at 0x102BDDF0>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+chooseFireOpenShot <function avatarCloseUpThrowShot at 0x102BD7F0>
+chooseFireOpenShot <function avatarCloseUpThreeQuarterLeftFireShot at 0x102BDDF0>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+chooseFireOpenShot <function suitGroupThreeQuarterLeftBehindShot at 0x102BD6F0>
+chooseFireOpenShot <function avatarCloseUpThreeQuarterLeftFireShot at 0x102BDDF0>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+frame rate: 11.4 fps|0.053d|25 avs||1303|1318||0x15ad|0x0405|473.2MB|707.1MB|1023.5MB|695|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+### newVec3 =  LVector3f(2, 3.7, 1.5)
+### newVec3 =  LVector3f(2, 3.7, 0)
+### newVec3 =  LVector3f(2, 3.7, 0.375)
+### newVec3 =  LVector3f(2, 3.7, 0)
+frame rate: 19.3 fps|0.015d|9 avs||1603|1618||0x15ad|0x0405|497.6MB|731.7MB|1023.5MB|702|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+chooseFireOpenShot <function avatarBehindShot at 0x102BD970>
+chooseFireOpenShot <function avatarCloseUpFireShot at 0x102BDDB0>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+chooseFireOpenShot <function allGroupLowShot at 0x102BD570>
+chooseFireOpenShot <function avatarCloseUpFireShot at 0x102BDDB0>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+chooseFireOpenShot <function allGroupLowShot at 0x102BD570>
+chooseFireOpenShot <function suitGroupThreeQuarterLeftBehindShot at 0x102BD6F0>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+frame rate: 4.4 fps|0.058d|1 avs||1903|1918||0x15ad|0x0405|472.9MB|776.8MB|1023.5MB|714|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+Battle Event localtoon-battle-event-28
+chooseFireOpenShot <function avatarBehindShot at 0x102BD970>
+chooseFireOpenShot <function suitGroupThreeQuarterLeftBehindShot at 0x102BD6F0>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+frame rate: 3.7 fps|0.333d|67 avs||2203|2218||0x15ad|0x0405|499.5MB|799.8MB|1023.5MB|724|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+ignoring InputState-forward

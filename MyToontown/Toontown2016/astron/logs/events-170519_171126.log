@@ -1,0 +1,9 @@
+{"_time": "2017-05-19 17:11:26-0400", "type": "log-opened", "sender": "EventLogger", "msg": "Log opened upon Event Logger startup."}
+{"_time": "2017-05-19 17:12:25-0400", "type": "client-connected", "sender": "Client:1000000000", "remote_address": "127.0.0.1:59613", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-19 17:12:25-0400", "type": "client-ejected-security", "sender": "Client:1000000000", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-19 17:16:29-0400", "type": "client-connected", "sender": "Client:1000000001", "remote_address": "127.0.0.1:59651", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-19 17:16:29-0400", "type": "client-ejected-security", "sender": "Client:1000000001", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-19 17:16:29-0400", "type": "client-connected", "sender": "Client:1000000002", "remote_address": "127.0.0.1:59652", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-19 17:16:29-0400", "type": "client-ejected-security", "sender": "Client:1000000002", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}
+{"_time": "2017-05-19 17:16:30-0400", "type": "client-connected", "sender": "Client:1000000003", "remote_address": "127.0.0.1:59653", "local_address": "127.0.0.1:7198"}
+{"_time": "2017-05-19 17:16:30-0400", "type": "client-ejected-security", "sender": "Client:1000000003", "reason_code": "108", "reason_msg": "Message type 24 not allowed prior to authentication."}

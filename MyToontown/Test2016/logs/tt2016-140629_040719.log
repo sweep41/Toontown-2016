@@ -1,0 +1,129 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tt2016-dev
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x143EA710>}
+entering active SC menu
+local
+0
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+Reading DNA file... phase_4/dna/storage_TT.dna
+Reading DNA file... phase_4/dna/storage_TT_sz.dna
+Reading DNA file... phase_4/dna/toontown_central_sz.dna
+fisherman origin:  render/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+entering active SC menu
+fisherman origin:  hidden/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+fisherman origin:  hidden/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+frame rate: 31.4 fps|0.051d|4 avs||361|375||0x15ad|0x0405|339.6MB|430.1MB|1023.5MB|332|nt.2.6.1|2.293,2.293|1,1 cpus|OpenGL
+fisherman origin:  hidden/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+fisherman origin:  hidden/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+Reading DNA file... phase_5/dna/storage_town.dna
+Reading DNA file... phase_5/dna/storage_TT_town.dna
+Reading DNA file... phase_5/dna/toontown_central_2100.dna
+DNALandmarkBuilding sb71:toon_landmark_hqTT_DNARoot did not find **/*suit_building_origin
+Battle Event localtoon-battle-event-3
+Battle Event localtoon-battle-event-9
+frame rate: 19.3 fps|0.027d|0 avs||660|675||0x15ad|0x0405|371.7MB|563.5MB|1023.5MB|411|nt.2.6.1|2.293,2.293|1,1 cpus|OpenGL
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Battle Event localtoon-battle-event-15
+frame rate: 14.4 fps|0.037d|2 avs||961|975||0x15ad|0x0405|380.1MB|595.8MB|1023.5MB|420|nt.2.6.1|2.293,2.293|1,1 cpus|OpenGL
+Battle Event localtoon-battle-event-21
+entering active SC menu
+Battle Event localtoon-battle-event-27
+### newVec3 =  LVector3f(0, 5, 1.5)
+### newVec3 =  LVector3f(0, 5, 0)
+### newVec3 =  LVector3f(0, 5, 0.375)
+### newVec3 =  LVector3f(0, 5, 0)
+Battle Event localtoon-battle-event-32
+frame rate: 21.9 fps|0.017d|4 avs||1261|1275||0x15ad|0x0405|390.1MB|607.6MB|1023.5MB|429|nt.2.6.1|2.293,2.293|1,1 cpus|OpenGL
+Reading DNA file... phase_5/dna/storage_town.dna
+Reading DNA file... phase_5/dna/storage_TT_town.dna
+Reading DNA file... phase_5/dna/toontown_central_2100.dna
+DNALandmarkBuilding sb71:toon_landmark_hqTT_DNARoot did not find **/*suit_building_origin
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_8/dna/storage_DL.dna
+Reading DNA file... phase_8/dna/storage_DL_sz.dna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.dna
+fisherman origin:  render/loader_data/donaldsDreamland/fishing_pond_1/npc_fisherman_origin_0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_8/dna/storage_BR.dna
+Reading DNA file... phase_8/dna/storage_BR_sz.dna
+Reading DNA file... phase_8/dna/the_burrrgh_sz.dna
+empty flat building with no walls
+DNALandmarkBuilding sb11:toon_landmark_BR_pet_shop_DNARoot did not find **/*suit_building_origin
+fisherman origin:  render/loader_data/theBurrrgh/fishing_pond_1/npc_fisherman_origin_0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_6/dna/storage_MM.dna
+loading MM safezone
+Reading DNA file... phase_6/dna/storage_MM_sz.dna
+Reading DNA file... phase_6/dna/minnies_melody_land_sz.dna
+fisherman origin:  render/loader_data/minniesMelodyLand/fishing_pond_1/npc_fisherman_origin_0
+fisherman origin:  hidden/loader_data/minniesMelodyLand/fishing_pond_1/npc_fisherman_origin_0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_8/dna/storage_DG.dna
+Reading DNA file... phase_8/dna/storage_DG_sz.dna
+Reading DNA file... phase_8/dna/daisys_garden_sz.dna
+fisherman origin:  render/loader_data/daisysGarden/fishing_pond_1/npc_fisherman_origin_0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+entering active SC menu
+frame rate: 18.5 fps|0.006d|0 avs||1562|1577||0x15ad|0x0405|388.3MB|784.4MB|1023.5MB|569|nt.2.6.1|2.293,2.293|1,1 cpus|OpenGL
+entering active SC menu
+entering active SC menu
+Battle Event localtoon-battle-event-37
+entering active SC menu
+entering active SC menu
+entering active SC menu
+entering active SC menu
+frame rate: 16.7 fps|0.014d|43 avs||1862|1877||0x15ad|0x0405|385.5MB|852.1MB|1023.5MB|590|nt.2.6.1|2.293,2.293|1,1 cpus|OpenGL
+Reading DNA file... phase_6/dna/storage_DD.dna

@@ -1,0 +1,353 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tt2016-dev
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x13420710>}
+entering active SC menu
+local
+0
+Reading DNA file... phase_3.5/dna/storage_tutorial.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+Reading DNA file... phase_3.5/dna/tutorial_street.dna
+Hello there im a distributedTutorialInteriorAI
+Setting up Toontorial dna! :D
+Reading DNA file... phase_3.5/dna/tutorial_street.dna
+Battle Event localtoon-battle-event-3
+Exception occurred while processing Func-__doDamage-463 of movie-track-with-cam-401003571:
+movie-track-with-cam-401003571:
+  0.000 movie-track-with-cam-401003571 {
+  0.000   movie-track-401003571 {
+  0.000     Sequence-249 {
+  0.000       toon-attacks {
+  0.000         Parallel-251 {
+  0.000           Sequence-265 {
+  0.000             Wait
+  0.000             Parallel-252 {
+  0.000               Sequence-253 {
+  0.000                 Wait
+  0.000                 Parallel-254 {
+  0.000                   Sequence-255 {
+  0.000                     *Func-showProps-399
+  0.000                     *Func-headsUp-400
+  0.000                     *Actor-pushbutton-12 dur 4
+  4.000                     *Func-removeProps-401
+  4.000                     *Func-loop-402
+  4.000                     *Func-setHpr-403
+  4.000                   }
+  0.000                   Sequence-256 {
+  0.000                     Wait dur 2.1
+  2.100                     *Sound-33 dur 2.324
+  4.424                   }
+  0.000                   Sequence-258 {
+  0.000                     Wait dur 1
+  1.000                     *Func-reparentTo-409
+  1.000                     LerpScaleInterval-209: scale from 0.01 0.01 0.01 to 1.5 1.5 1.5 dur 0.5
+  1.500                     Wait dur 1
+  2.500                     Sequence-257 {
+  2.500                       *Func-needRestoreRenderProp-404
+  2.500                       *Func-showSpray-405
+  2.500                       *LerpScaleInterval-207 dur 0.2
+  2.700                       Wait dur 0.1
+  2.800                       *Func-prepareToShrinkSpray-406
+  2.800                       LerpScaleInterval-208: scale from 1.38335 6.91675 1.38335 to 0.01 0.01 0.01 dur 0.2
+  3.000                       *Func-hideSpray-407
+  3.000                       *Func-clearRenderProp-408
+  3.000                     }
+  3.000                     LerpScaleInterval-210: scale from 1.5 1.5 1.5 to 0.01 0.01 0.01 dur 0.5
+  3.500                     *Func-removeNode-410
+  3.500                     *Func-removeNode-411
+  3.500                     *Func-removeProp-412
+  3.500                   }
+  0.000                   Sequence-259 {
+  0.000                     *Func-needRestoreRenderProp-413
+  0.000                     Wait dur 2.7
+  2.700                     *Func-prepSplash-414
+  2.700                     *Actor-splash-from-splat-13 dur 0.416667
+  3.117                     Wait dur 0.01
+  3.127                     *Func-removeProp-415
+  3.127                     *Func-clearRenderProp-416
+  3.127                   }
+  0.000                   Parallel-264 {
+  0.000                     Sequence-260 {
+  0.000                       Wait dur 2.7
+  2.700                       *Func-showHpText-421 (!oe)
+  2.700                       *Func-updateHealthBar-422
+  2.700                       Parallel-262 {
+  2.700                         *Actor-squirt-small-react-15 dur 3.95833
+  2.700                         Sequence-261 {
+  2.700                           Wait dur 0.5
+  3.200                           *Func-reparentTo-417
+  3.200                           *Func-setZ-418
+  3.200                           *Func-loop-419
+  3.200                           Wait dur 1.8
+  5.000                           *Func-removeNode-420
+  5.000                         }
+  6.658                       }
+  6.658                       *Func-loop-423
+  6.658                     }
+  0.000                     Sequence-263 {
+  0.000                       Wait dur 2.7
+  2.700                     }
+  6.658                   }
+  6.658                 }
+  6.658               }
+  6.658             }
+  6.658           }
+  6.658         }
+  6.658       }
+  6.658       suit-attacks {
+  6.658         Sequence-302 {
+  6.658           Parallel-294 {
+  6.658             Sequence-267 {
+  6.658               Wait dur 1e-006
+  6.658               *Func-setChatAbsolute-426
+  6.658               *Func-reparentTrap-427
+  6.658               *Func-headsUp-428
+  6.658               *Actor-glower-16 dur 2.75
+  9.408               *Func-setHpr-429
+  9.408               *Func-returnTrapToSuit-430
+  9.408               *Func-clearChat-431
+  9.408             }
+  6.658             Sequence-288 {
+  6.658               *Func-headsUp-462
+  6.658               Parallel-292 {
+  6.658                 Sequence-289 {
+  6.658                   Wait dur 1.6
+  8.258                   Sequence-290 {
+  8.258                     Wait dur 0.01
+  8.268                     *Actor-slip-backward-17 dur 2.44167
+ 10.710                   }
+ 10.710                   *Func-loop-464
+ 10.710                   Wait dur 5
+ 15.710                 }
+  6.658                 Sequence-291 {
+  6.658                   Wait dur 1.61
+  8.268                   *Func-__doDamage-463
+  8.268                 }
+ 15.710               }
+ 15.710             }
+  6.658             Sequence-293 {
+  6.658               Wait dur 1.1
+  7.758               *Sound-34 dur 0.653
+  8.411             }
+  6.658             Parallel-268 {
+  6.658               Sequence-270 {
+  6.658                 Wait dur 1.1
+  7.758                 Wait
+  7.758                 Sequence-271 {
+  7.758                   Wait dur 1e-006
+  7.758                   *Func-__showProp-432
+  7.758                   LerpScaleInterval-211: scale from 0.01 0.01 0.01 to 0.4 0.4 0.4 dur 0.1
+  7.858                 }
+  7.858                 Sequence-272 {
+  7.858                   *Func-needRestoreRenderProp-433
+  7.858                   *Func-wrtReparentTo-434
+  7.858                   *LerpPosInterval-212 dur 0.3
+  8.158                   *Func-removeProp-435
+  8.158                   *Func-clearRenderProp-436
+  8.158                 }
+  8.158               }
+  6.658               Sequence-276 {
+  6.658                 Wait dur 1.1
+  7.758                 Wait dur 0.11
+  7.868                 Sequence-277 {
+  7.868                   Wait dur 1e-006
+  7.868                   *Func-__showProp-442
+  7.868                   LerpScaleInterval-215: scale from 0.01 0.01 0.01 to 0.4 0.4 0.4 dur 0.1
+  7.968                 }
+  7.968                 Sequence-278 {
+  7.968                   *Func-needRestoreRenderProp-443
+  7.968                   *Func-wrtReparentTo-444
+  7.968                   *LerpPosInterval-216 dur 0.3
+  8.268                   *Func-removeProp-445
+  8.268                   *Func-clearRenderProp-446
+  8.268                 }
+  8.268               }
+  6.658               Sequence-282 {
+  6.658                 Wait dur 1.1
+  7.758                 Wait dur 0.22
+  7.978                 Sequence-283 {
+  7.978                   Wait dur 1e-006
+  7.978                   *Func-__showProp-452
+  7.978                   LerpScaleInterval-219: scale from 0.01 0.01 0.01 to 0.4 0.4 0.4 dur 0.1
+  8.078                 }
+  8.078                 Sequence-284 {
+  8.078                   *Func-needRestoreRenderProp-453
+  8.078                   *Func-wrtReparentTo-454
+  8.078                   *LerpPosInterval-220 dur 0.3
+  8.378                   *Func-removeProp-455
+  8.378                   *Func-clearRenderProp-456
+  8.378                 }
+  8.378               }
+  8.378             }
+  6.658             Parallel-269 {
+  6.658               Sequence-273 {
+  6.658                 Wait dur 1.1
+  7.758                 Wait
+  7.758                 Sequence-274 {
+  7.758                   Wait dur 1e-006
+  7.758                   *Func-__showProp-437
+  7.758                   LerpScaleInterval-213: scale from 0.01 0.01 0.01 to 0.4 0.4 0.4 dur 0.1
+  7.858                 }
+  7.858                 Sequence-275 {
+  7.858                   *Func-needRestoreRenderProp-438
+  7.858                   *Func-wrtReparentTo-439
+  7.858                   *LerpPosInterval-214 dur 0.3
+  8.158                   *Func-removeProp-440
+  8.158                   *Func-clearRenderProp-441
+  8.158                 }
+  8.158               }
+  6.658               Sequence-279 {
+  6.658                 Wait dur 1.1
+  7.758                 Wait dur 0.11
+  7.868                 Sequence-280 {
+  7.868                   Wait dur 1e-006
+  7.868                   *Func-__showProp-447
+  7.868                   LerpScaleInterval-217: scale from 0.01 0.01 0.01 to 0.4 0.4 0.4 dur 0.1
+  7.968                 }
+  7.968                 Sequence-281 {
+  7.968                   *Func-needRestoreRenderProp-448
+  7.968                   *Func-wrtReparentTo-449
+  7.968                   *LerpPosInterval-218 dur 0.3
+  8.268                   *Func-removeProp-450
+  8.268                   *Func-clearRenderProp-451
+  8.268                 }
+  8.268               }
+  6.658               Sequence-285 {
+  6.658                 Wait dur 1.1
+  7.758                 Wait dur 0.22
+  7.978                 Sequence-286 {
+  7.978                   Wait dur 1e-006
+  7.978                   *Func-__showProp-457
+  7.978                   LerpScaleInterval-221: scale from 0.01 0.01 0.01 to 0.4 0.4 0.4 dur 0.1
+  8.078                 }
+  8.078                 Sequence-287 {
+  8.078                   *Func-needRestoreRenderProp-458
+  8.078                   *Func-wrtReparentTo-459
+  8.078                   *LerpPosInterval-222 dur 0.3
+  8.378                   *Func-removeProp-460
+  8.378                   *Func-clearRenderProp-461
+  8.378                 }
+  8.378               }
+  8.378             }
+ 15.710           }
+ 15.710           *Func-loop-475
+ 15.710           Sequence-301 {
+ 15.710             *Func-headsUp-473
+ 15.710             *Func-loop-474
+ 15.710           }
+ 15.710         }
+ 15.710       }
+ 15.710       *Func-__handleMovieDone-476
+ 15.710     }
+ 15.710   }
+  0.000   Sequence-303 {
+  0.000     Sequence-250 {
+  0.000       toon-attacks-cam {
+  0.000         Sequence-266 {
+  0.000           avatarCloseUpThreeQuarterRightShot {
+  0.000             *Func-setPosHpr-424
+  0.000             Wait dur 3
+  3.000           }
+  3.000           avatarCloseUpThreeQuarterLeftShot {
+  3.000             *Func-setPosHpr-425
+  3.000             Wait dur 3.658
+  6.658           }
+  6.658         }
+  6.658       }
+  6.658       suit-attacks-cam {
+  6.658         Parallel-300 {
+  6.658           Sequence-295 {
+  6.658             Sequence-298 {
+  6.658               Sequence-296 {
+  6.658                 *Func-setPos-465
+  6.658                 *Func-focusCameraBetweenPoints-466
+  6.658                 Wait dur 1.4
+  8.058               }
+  8.058               Sequence-297 {
+  8.058                 *Func-setPos-467
+  8.058                 *Func-lookAt-468
+  8.058                 Wait dur 7.652
+ 15.710               }
+ 15.710             }
+ 15.710           }
+  6.658           Sequence-299 {
+  6.658             *Func-hide-469
+  6.658             Wait dur 1.05
+  7.708             *Func-setText-470
+  7.708             *Func-show-471
+  7.708             Wait dur 2.45
+ 10.158             *Func-hide-472
+ 10.158           }
+ 15.710         }
+ 15.710       }
+ 15.710     }
+ 15.710   }
+ 15.710 }
+
+Traceback (most recent call last):
+  File "C:\Panda3D-1.9.0\direct\showbase\ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "C:\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 124, in __doPythonCallbacks
+    self.ivals[index].privPostEvent()
+  File "C:\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "C:\Panda3D-1.9.0\direct\interval\Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "C:\Panda3D-1.9.0\direct\interval\FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown\battle\MovieSuitAttacks.py", line 22, in __doDamage
+    toon.takeDamage(dmg)
+  File "otp\avatar\DistributedAvatar.py", line 119, in takeDamage
+    self.died()
+  File "toontown\toon\DistributedToon.py", line 713, in died
+    'where': ZoneUtil.getWhereName(target_sz, 1),
+  File "toontown\hood\ZoneUtil.py", line 86, in getWhereName
+    zoneUtilNotify.error('No known zone: ' + str(zoneId))
+  File "C:\Panda3D-1.9.0\direct\directnotify\Notifier.py", line 136, in error
+    raise exception(errorString)
+StandardError: No known zone: 15000
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 239, in run
+    taskMgr.run()
+  File "C:\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "C:\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "C:\Panda3D-1.9.0\direct\showbase\ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "C:\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 124, in __doPythonCallbacks
+    self.ivals[index].privPostEvent()
+  File "C:\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "C:\Panda3D-1.9.0\direct\interval\Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "C:\Panda3D-1.9.0\direct\interval\FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown\battle\MovieSuitAttacks.py", line 22, in __doDamage
+    toon.takeDamage(dmg)
+  File "otp\avatar\DistributedAvatar.py", line 119, in takeDamage
+    self.died()
+  File "toontown\toon\DistributedToon.py", line 713, in died
+    'where': ZoneUtil.getWhereName(target_sz, 1),
+  File "toontown\hood\ZoneUtil.py", line 86, in getWhereName
+    zoneUtilNotify.error('No known zone: ' + str(zoneId))
+  File "C:\Panda3D-1.9.0\direct\directnotify\Notifier.py", line 136, in error
+    raise exception(errorString)
+StandardError: No known zone: 15000

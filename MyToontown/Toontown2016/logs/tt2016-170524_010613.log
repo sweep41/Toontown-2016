@@ -1,0 +1,89 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+[(1280, 800), (1152, 720), (1024, 768), (1024, 640), (800, 600), (800, 500), (640, 480), (720, 480)]
+ToontownStart: serverVersion:  tt2016-dev
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x12671e710>}
+entering active SC menu
+local
+0
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+Battle Event localtoon-battle-event-3
+### newVec3 = LVector3f(-2, 11.3, 1.5)
+### newVec3 = LVector3f(-2, 11.3, 0)
+### newVec3 = LVector3f(-2, 11.3, 0.375)
+### newVec3 = LVector3f(-2, 11.3, 0)
+frame rate: 52.2 fps|0.010d|29 avs||330|334||0x0000|0x0000|0.0MB|0.0MB|4096.0MB|0|darwin.6.10.11|2.300,2.300|2,4 cpus|OpenGL
+entering active SC menu
+entering active SC menu
+entering active SC menu
+chooseFireOpenShot <function allGroupLowShot at 0x1182b6a28>
+chooseFireOpenShot <function allGroupLowShot at 0x1182b6a28>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+entering active SC menu
+frame rate: 58.5 fps|0.003d|11 avs||630|634||0x0000|0x0000|0.0MB|0.0MB|4096.0MB|0|darwin.6.10.11|2.300,2.300|2,4 cpus|OpenGL
+entering active SC menu
+entering active SC menu
+chooseFireOpenShot <function avatarBehindShot at 0x1182b8230>
+chooseFireOpenShot <function avatarCloseUpThreeQuarterLeftFireShot at 0x1182b8aa0>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+entering active SC menu
+Battle Event localtoon-battle-event-10
+chooseFireOpenShot <function avatarCloseUpThreeQuarterRightShot at 0x1182b6f50>
+chooseFireOpenShot <function suitGroupThreeQuarterLeftBehindShot at 0x1182b6cf8>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+frame rate: 52.2 fps|0.004d|23 avs||930|934||0x0000|0x0000|0.0MB|0.0MB|4096.0MB|0|darwin.6.10.11|2.300,2.300|2,4 cpus|OpenGL
+entering active SC menu
+entering active SC menu
+entering active SC menu
+entering active SC menu
+chooseFireOpenShot <function suitGroupThreeQuarterLeftBehindShot at 0x1182b6cf8>
+chooseFireOpenShot <function suitGroupThreeQuarterLeftBehindShot at 0x1182b6cf8>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+chooseFireOpenShot <function suitGroupThreeQuarterLeftBehindShot at 0x1182b6cf8>
+chooseFireOpenShot <function avatarCloseUpFireShot at 0x1182b8a28>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+chooseFireOpenShot <function avatarBehindShot at 0x1182b8230>
+chooseFireOpenShot <function avatarCloseUpFireShot at 0x1182b8a28>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+entering active SC menu
+frame rate: 53.1 fps|0.004d|9 avs||1230|1234||0x0000|0x0000|0.0MB|0.0MB|4096.0MB|0|darwin.6.10.11|2.300,2.300|2,4 cpus|OpenGL
+chooseFireOpenShot <function allGroupLowShot at 0x1182b6a28>
+chooseFireOpenShot <function suitGroupThreeQuarterLeftBehindShot at 0x1182b6cf8>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+chooseFireOpenShot <function avatarCloseUpThreeQuarterRightShot at 0x1182b6f50>
+chooseFireOpenShot <function avatarCloseUpThreeQuarterLeftFireShot at 0x1182b8aa0>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+chooseFireOpenShot <function avatarCloseUpThrowShot at 0x1182b6ed8>
+chooseFireOpenShot <function avatarCloseUpThreeQuarterLeftFireShot at 0x1182b8aa0>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+entering active SC menu
+entering active SC menu
+chooseFireOpenShot <function avatarBehindShot at 0x1182b8230>
+chooseFireOpenShot <function suitGroupThreeQuarterLeftBehindShot at 0x1182b6cf8>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+chooseFireOpenShot <function avatarCloseUpThrowShot at 0x1182b6ed8>
+chooseFireOpenShot <function avatarCloseUpFireShot at 0x1182b8a28>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+Traceback (most recent call last):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1912, in __igLoop
+    self.graphicsEngine.renderFrame()
+AssertionError: !_center.is_nan() && !cnan(_radius) at line 29 of built/include/boundingSphere.I
+Traceback (most recent call last):
+  File "otp/otpbase/OTPBase.py", line 239, in run
+    taskMgr.run()
+  File "/Developer/Panda3D/direct/task/Task.py", line 517, in run
+    self.step()
+  File "/Developer/Panda3D/direct/task/Task.py", line 471, in step
+    self.mgr.poll()
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1912, in __igLoop
+    self.graphicsEngine.renderFrame()
+AssertionError: !_center.is_nan() && !cnan(_radius) at line 29 of built/include/boundingSphere.I

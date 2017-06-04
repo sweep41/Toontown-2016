@@ -1,0 +1,4 @@
+{"_time": "2014-08-16 05:57:15-0400", "type": "log-opened", "sender": "EventLogger", "msg": "Log opened upon Event Logger startup."}
+{"_time": "2014-08-16 05:57:58-0400", "type": "client-connected", "sender": "Client:1000000000", "remote_address": "68.195.65.230:60425", "local_address": "192.168.1.107:7198"}
+{"_time": "2014-08-16 05:57:58-0400", "type": "accountLogin", "sender": "AIR:1000000", "_1": 1000000000, "_2": 100000011, "_3": "sweep"}
+{"_time": "2014-08-16 05:58:49-0400", "type": "client-disconnected", "sender": "Client:1000000000"}

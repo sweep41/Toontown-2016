@@ -1,0 +1,108 @@
+~a2d
+~accessLevel #
+~achievements earn #
+~achievements remove #
+~backgroundColor # # #
+~backpack # #
+~badName
+~ban
+~bank max #
+~bank transfer #
+~cheesyEffect # # #
+~cogIndex #
+~collisionsOff
+~collisionsOn
+~dna armcolor #
+~dna bottex #
+~dna bottexcolor #
+~dna color #
+~dna color #
+~dna gender #
+~dna head (species)
+~dna headcolor #
+~dna headsize #
+~dna legcolor #
+~dna legs #
+~dna restore #
+~dna save #
+~dna sleevetex #
+~dna sleevetexcolor #
+~dna species (species)
+~dna toptex #
+~dna toptexcolor #
+~dna torso #
+~factoryWarp #
+~fires #
+~fireworks (showname)
+~fish (fish)
+~fishingRod #
+~getZone
+~ghost
+~givePies # #
+~glasses # #
+~globalTeleport
+~gmIcon #
+~gravity #
+~hat # #
+~house type #
+~hp #
+~hyr # # #
+~idNametags
+~inventory reset
+~kick
+~leftHand (prop)
+~loop (animation)
+~maxFishTank #
+~maxHp #
+~maxMoney #
+~maxToon
+~minigame abort
+~minigame diffuclty #
+~minigame force (minigame)
+~minigame remove
+~minigame request (minigame)
+~minigame safezone
+~money #
+~name (name)
+~nameNametags
+~neglect
+~oobe
+~oobeCull
+~pingpong (animation) #
+~placer
+~pose (animation) #
+~quest tier #
+~quests bagSize 4
+~quests clear
+~quests clearHistory
+~quests list
+~quests progress
+~quests remove #
+~race leave
+~rightHand (prop)
+~run
+~shoes # #
+~skipCFO
+~skipMovie
+~skipVP
+~sos # (SOS)
+~spooky
+~suit building #
+~suit do
+~suit invaisonend #
+~suit invasion # # # # #
+~suit summon # #
+~suitPaths
+~system (message)
+~target
+~track add (gagtrack)
+~track experience (gagtrack) #
+~track remove (gagtrack)
+~trackBonus #
+~trophyScore #
+~unites #
+~unlocks
+~warp
+~wire
+~xyz # # #
+~zone #

@@ -1,0 +1,289 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tt2016-dev
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x143C96E8>}
+entering active SC menu
+local
+0
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+entering active SC menu
+frame rate: 36.3 fps|0.010d|0 avs||364|369||0x15ad|0x0405|302.9MB|402.0MB|1023.5MB|310|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+doors enter state 1
+openInnerDoors
+openInnerDoors
+openInnerDoors stage Two
+spec = {'parentEntId': 110200, 'pos': LPoint3f(0, 0, 0)}
+h = None
+Battle Event localtoon-battle-event-3
+doors enter state 1
+openInnerDoors
+openInnerDoors
+openInnerDoors stage Two
+Pattern [2, 5, 2, 5, 6, 6] Place 0 Type 2
+Pattern [2, 5, 2, 5, 6, 6] Place 1 Type 5
+Pattern [2, 5, 2, 5, 6, 6] Place 2 Type 2
+frame rate: 31.5 fps|0.026d|4 avs||664|669||0x15ad|0x0405|344.8MB|449.1MB|1023.5MB|323|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+Pattern [2, 5, 2, 5, 6, 6] Place 3 Type 5
+Pattern [2, 5, 2, 5, 6, 6] Place 4 Type 6
+Pattern [2, 5, 2, 5, 6, 6] Place 5 Type 6
+Pattern [2, 2, 0, 6, 1, 6, 0, 1] Place 0 Type 2
+Pattern [2, 2, 0, 6, 1, 6, 0, 1] Place 1 Type 2
+Pattern [2, 2, 0, 6, 1, 6, 0, 1] Place 2 Type 0
+Pattern [2, 2, 0, 6, 1, 6, 0, 1] Place 3 Type 6
+Pattern [2, 2, 0, 6, 1, 6, 0, 1] Place 4 Type 1
+Pattern [2, 2, 0, 6, 1, 6, 0, 1] Place 5 Type 6
+Pattern [2, 2, 0, 6, 1, 6, 0, 1] Place 6 Type 0
+Pattern [2, 2, 0, 6, 1, 6, 0, 1] Place 7 Type 1
+Pattern [2, 2, 0, 6, 1, 6, 0, 1] Place 0 Type 2
+Pattern [2, 2, 0, 6, 1, 6, 0, 1] Place 1 Type 2
+Pattern [2, 2, 0, 6, 1, 6, 0, 1] Place 2 Type 0
+Pattern [2, 2, 0, 6, 1, 6, 0, 1] Place 3 Type 6
+Pattern [2, 2, 0, 6, 1, 6, 0, 1] Place 4 Type 1
+Pattern [2, 2, 0, 6, 1, 6, 0, 1] Place 5 Type 6
+Pattern [2, 2, 0, 6, 1, 6, 0, 1] Place 6 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 0 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 1 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 2 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 3 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 4 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 5 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 6 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 7 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 0 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 1 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 2 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 3 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 4 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 5 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 6 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 7 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 0 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 1 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 2 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 3 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 4 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 5 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 6 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 7 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 0 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 1 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 2 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 3 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 4 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 5 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 6 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 7 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 0 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 1 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 2 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 3 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 4 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 5 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 6 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 7 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 0 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 1 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 2 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 3 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 0 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 1 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 2 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 3 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 4 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 5 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 6 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 7 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 0 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 1 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 2 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 3 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 4 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 5 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 6 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 7 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 0 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 1 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 2 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 3 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 4 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 5 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 6 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 7 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 0 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 1 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 2 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 3 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 4 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 5 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 6 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 7 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 0 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 1 Type 0
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 2 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 3 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 4 Type 2
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 5 Type 5
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 6 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 7 Type 1
+Pattern [0, 0, 2, 5, 2, 5, 1, 1] Place 0 Type 0
+doors enter state 1
+openInnerDoors
+openInnerDoors
+openInnerDoors stage Two
+doors enter state 1
+openInnerDoors
+openInnerDoors
+openInnerDoors stage Two
+spec = {'parentEntId': 110400, 'pos': LPoint3f(0, 0, 0)}
+h = None
+Battle Event localtoon-battle-event-9
+### newVec3 =  LVector3f(-1.99997, 6.30005, 1.5)
+### newVec3 =  LVector3f(-1.99997, 6.30005, 0)
+### newVec3 =  LVector3f(-1.99997, 6.30005, 0.375)
+### newVec3 =  LVector3f(-1.99997, 6.30005, 0)
+frame rate: 30.3 fps|0.072d|8 avs||964|969||0x15ad|0x0405|353.9MB|481.1MB|1023.5MB|329|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+doors enter state 1
+openInnerDoors
+openInnerDoors
+openInnerDoors stage Two
+spec = {'parentEntId': 110000, 'pos': LPoint3f(0, 0, 0)}
+h = None
+Battle Event localtoon-battle-event-15
+doors enter state 1
+openInnerDoors
+openInnerDoors
+openInnerDoors stage Two
+Pattern [1, 2, 2, 6, 1, 6, 0, 0] Place 0 Type 1
+Pattern [1, 2, 2, 6, 1, 6, 0, 0] Place 1 Type 2
+Pattern [1, 2, 2, 6, 1, 6, 0, 0] Place 2 Type 2
+Pattern [1, 2, 2, 6, 1, 6, 0, 0] Place 3 Type 6
+Pattern [1, 2, 2, 6, 1, 6, 0, 0] Place 4 Type 1
+Pattern [1, 2, 2, 6, 1, 6, 0, 0] Place 5 Type 6
+Pattern [6, 1, 6, 0, 5, 5, 2, 0, 2, 1] Place 0 Type 6
+Pattern [6, 1, 6, 0, 5, 5, 2, 0, 2, 1] Place 1 Type 1
+Pattern [6, 1, 6, 0, 5, 5, 2, 0, 2, 1] Place 2 Type 6
+Pattern [6, 1, 6, 0, 5, 5, 2, 0, 2, 1] Place 3 Type 0
+Pattern [6, 1, 6, 0, 5, 5, 2, 0, 2, 1] Place 4 Type 5
+Pattern [6, 1, 6, 0, 5, 5, 2, 0, 2, 1] Place 5 Type 5
+Pattern [6, 1, 6, 0, 5, 5, 2, 0, 2, 1] Place 6 Type 2
+Pattern [6, 1, 6, 0, 5, 5, 2, 0, 2, 1] Place 7 Type 0
+Pattern [6, 1, 6, 0, 5, 5, 2, 0, 2, 1] Place 8 Type 2
+Pattern [6, 1, 6, 0, 5, 5, 2, 0, 2, 1] Place 9 Type 1
+Pattern [6, 1, 6, 0, 5, 5, 2, 0, 2, 1] Place 0 Type 6
+Pattern [6, 1, 6, 0, 5, 5, 2, 0, 2, 1] Place 1 Type 1
+Pattern [6, 1, 6, 0, 5, 5, 2, 0, 2, 1] Place 2 Type 6
+Pattern [6, 2, 0, 2, 1, 0, 6, 1] Place 0 Type 6
+Pattern [6, 2, 0, 2, 1, 0, 6, 1] Place 1 Type 2
+Pattern [6, 2, 0, 2, 1, 0, 6, 1] Place 2 Type 0
+Pattern [6, 2, 0, 2, 1, 0, 6, 1] Place 3 Type 2
+Pattern [6, 2, 0, 2, 1, 0, 6, 1] Place 4 Type 1
+Pattern [6, 2, 0, 2, 1, 0, 6, 1] Place 5 Type 0
+Pattern [6, 2, 0, 2, 1, 0, 6, 1] Place 6 Type 6
+Pattern [6, 2, 0, 2, 1, 0, 6, 1] Place 7 Type 1
+Pattern [6, 2, 0, 2, 1, 0, 6, 1] Place 0 Type 6
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 0 Type 6
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 1 Type 5
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 2 Type 0
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 3 Type 0
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 4 Type 5
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 5 Type 6
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 6 Type 1
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 7 Type 1
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 0 Type 6
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 1 Type 5
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 2 Type 0
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 3 Type 0
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 4 Type 5
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 5 Type 6
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 6 Type 1
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 7 Type 1
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 0 Type 6
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 1 Type 5
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 2 Type 0
+frame rate: 21.5 fps|0.009d|4 avs||1264|1269||0x15ad|0x0405|353.4MB|489.8MB|1023.5MB|332|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 0 Type 6
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 1 Type 5
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 2 Type 0
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 3 Type 0
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 4 Type 5
+Pattern [6, 5, 0, 0, 5, 6, 1, 1] Place 5 Type 6
+Pattern [7, 7, 8, 8] Place 0 Type 7
+Pattern [7, 7, 8, 8] Place 1 Type 7
+Pattern [7, 7, 8, 8] Place 2 Type 8
+Pattern [6, 1, 2, 5, 5, 0, 6, 1, 0, 2] Place 0 Type 6
+Pattern [6, 1, 2, 5, 5, 0, 6, 1, 0, 2] Place 1 Type 1
+Pattern [6, 1, 2, 5, 5, 0, 6, 1, 0, 2] Place 2 Type 2
+Pattern [6, 1, 2, 5, 5, 0, 6, 1, 0, 2] Place 3 Type 5
+Pattern [6, 1, 2, 5, 5, 0, 6, 1, 0, 2] Place 4 Type 5
+Pattern [6, 1, 2, 5, 5, 0, 6, 1, 0, 2] Place 5 Type 0
+Pattern [6, 1, 2, 5, 5, 0, 6, 1, 0, 2] Place 6 Type 6
+Pattern [6, 1, 2, 5, 5, 0, 6, 1, 0, 2] Place 7 Type 1
+Pattern [6, 1, 2, 5, 5, 0, 6, 1, 0, 2] Place 8 Type 0
+doors enter state 1
+openInnerDoors
+openInnerDoors
+openInnerDoors stage Two
+doors enter state 1
+openInnerDoors
+openInnerDoors
+openInnerDoors stage Two
+frame rate: 24.1 fps|0.016d|4 avs||1564|1569||0x15ad|0x0405|311.1MB|490.1MB|1023.5MB|332|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+ignoring InputState-forward
+entering active SC menu
+local
+1
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+ignoring InputState-forward
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x143C96E8>}
+entering active SC menu
+local
+1
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+ToonAvatarDetailPanel None
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+frame rate: 13.5 fps|0.036d|0 avs||2049|2054||0x15ad|0x0405|237.6MB|502.5MB|1023.5MB|721|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+ignoring InputState-forward
+entering active SC menu
+local
+0
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage_TT.dna
+Reading DNA file... phase_4/dna/storage_TT_sz.dna
+Reading DNA file... phase_4/dna/toontown_central_sz.dna
+fisherman origin:  render/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0

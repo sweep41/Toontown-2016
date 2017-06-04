@@ -1,0 +1,44 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tt2016-dev
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x143F0710>}
+entering active SC menu
+local
+0
+entering active SC menu
+chatButtonPressed
+entering active SC menu
+entering active SC menu
+ignoring InputState-forward
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+frame rate: 66.4 fps|0.048d|0 avs||503|510||0x15ad|0x0405|228.0MB|322.5MB|1023.5MB|214|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19002C38>}

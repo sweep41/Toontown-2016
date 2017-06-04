@@ -1,0 +1,73 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tt2016-dev
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1355D120>}
+entering active SC menu
+local
+1
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+Reading DNA file... phase_4/dna/storage_TT.dna
+Reading DNA file... phase_4/dna/storage_TT_sz.dna
+Reading DNA file... phase_4/dna/toontown_central_sz.dna
+fisherman origin:  render/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+fisherman origin:  hidden/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+Reading DNA file... phase_5/dna/storage_town.dna
+Reading DNA file... phase_5/dna/storage_TT_town.dna
+Reading DNA file... phase_5/dna/toontown_central_2100.dna
+DNALandmarkBuilding sb71:toon_landmark_hqTT_DNARoot did not find **/*suit_building_origin
+Battle Event localtoon-battle-event-3
+Battle Event localtoon-battle-event-9
+Battle Event localtoon-battle-event-15
+frame rate: 21.6 fps|0.042d|4 avs||395|405||0x15ad|0x0405|455.1MB|524.6MB|1023.5MB|398|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+Reading DNA file... phase_5/dna/storage_town.dna
+Reading DNA file... phase_5/dna/storage_TT_town.dna
+Reading DNA file... phase_5/dna/toontown_central_2100.dna
+DNALandmarkBuilding sb71:toon_landmark_hqTT_DNARoot did not find **/*suit_building_origin
+Battle Event localtoon-battle-event-20
+fisherman origin:  render/town_top_level/toontownCentral/2156/fishing_pond_1/npc_fisherman_origin_0
+Battle Event localtoon-battle-event-26
+Battle Event localtoon-battle-event-32
+frame rate: 14.9 fps|0.036d|5 avs||695|706||0x15ad|0x0405|366.6MB|630.8MB|1023.5MB|424|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+Battle Event localtoon-battle-event-38
+entering active SC menu
+Battle Event localtoon-battle-event-44
+Reading DNA file... phase_5/dna/storage_town.dna
+Reading DNA file... phase_5/dna/storage_TT_town.dna
+Reading DNA file... phase_5/dna/toontown_central_2100.dna
+DNALandmarkBuilding sb71:toon_landmark_hqTT_DNARoot did not find **/*suit_building_origin
+fisherman origin:  render/town_top_level/toontownCentral/2156/fishing_pond_1/npc_fisherman_origin_0
+fisherman origin:  render/town_top_level/toontownCentral/2156/fishing_pond_1/npc_fisherman_origin_0
+Battle Event localtoon-battle-event-49
+frame rate: 12.2 fps|0.130d|2 avs||995|1005||0x15ad|0x0405|385.1MB|713.8MB|1023.5MB|455|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+entering active SC menu
+Battle Event localtoon-battle-event-54
+Battle Event localtoon-battle-event-59
+Reading DNA file... phase_5/dna/storage_town.dna
+Reading DNA file... phase_5/dna/storage_TT_town.dna
+Reading DNA file... phase_5/dna/toontown_central_2100.dna
+DNALandmarkBuilding sb71:toon_landmark_hqTT_DNARoot did not find **/*suit_building_origin
+fisherman origin:  render/town_top_level/toontownCentral/2156/fishing_pond_1/npc_fisherman_origin_0
+Battle Event localtoon-battle-event-64
+frame rate: 6.8 fps|0.088d|3 avs||1295|1305||0x15ad|0x0405|423.7MB|800.6MB|1023.5MB|478|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+fisherman origin:  render/town_top_level/toontownCentral/2156/fishing_pond_1/npc_fisherman_origin_0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage_TT_sz.dna
+Reading DNA file... phase_4/dna/toontown_central_sz.dna
+fisherman origin:  render/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+Reading DNA file... phase_5/dna/storage_town.dna
+Reading DNA file... phase_5/dna/storage_TT_town.dna
+Reading DNA file... phase_5/dna/toontown_central_2100.dna
+DNALandmarkBuilding sb71:toon_landmark_hqTT_DNARoot did not find **/*suit_building_origin

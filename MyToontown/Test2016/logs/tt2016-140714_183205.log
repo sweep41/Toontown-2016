@@ -1,0 +1,27 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tt2016-dev
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x14400710>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x14400710>}
+entering active SC menu
+local
+0
+ignoring InputState-forward
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x17EE86C0>}
+entering active SC menu
+local
+ignoring InputState-forward
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x17EE86C0>}
+entering active SC menu
+local
+ignoring InputState-forward
+frame rate: 34.2 fps|0.156d|0 avs||459|470||0x15ad|0x0405|258.8MB|316.0MB|1023.5MB|164|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL

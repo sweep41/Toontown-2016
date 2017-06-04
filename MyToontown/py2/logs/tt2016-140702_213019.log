@@ -1,0 +1,79 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  Toontown-WorldWide
+Preloading avatars...
+Done preloading avatars.
+{402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1340A710>, 401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x13415B48>}
+entering active SC menu
+local
+1
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+0.0 7.1375002861 -1.20000004768 0.800000011921
+LPoint3f(-4.23975, 0.05, -2.9)
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage_TT.dna
+Reading DNA file... phase_4/dna/storage_TT_sz.dna
+Reading DNA file... phase_4/dna/toontown_central_sz.dna
+fisherman origin:  render/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+0.0 7.1375002861 -1.20000004768 0.800000011921
+LPoint3f(-4.23975, 0.05, -2.9)
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+0.0 7.1375002861 -1.20000004768 0.800000011921
+LPoint3f(-4.23975, 0.05, -2.9)
+ToonAvatarDetailPanel None
+ToonAvatarDetailPanel None
+frame rate: 23.3 fps|0.011d|2 avs||329|330||0x15ad|0x0405|403.7MB|431.3MB|1023.5MB|331|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+0.0 7.1375002861 -1.20000004768 0.800000011921
+LPoint3f(-4.23975, 0.05, -2.9)
+0.0 7.1375002861 -1.20000004768 0.800000011921
+LPoint3f(-4.23975, 0.05, -2.9)
+frame rate: 24.2 fps|0.011d|2 avs||629|630||0x15ad|0x0405|404.0MB|431.8MB|1023.5MB|331|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+Whisper button was pressed
+ToonAvatarDetailPanel None
+ToonAvatarDetailPanel None
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+Reading DNA file... phase_4/dna/storage_TT.dna
+Reading DNA file... phase_4/dna/storage_TT_sz.dna
+Reading DNA file... phase_4/dna/toontown_central_sz.dna
+fisherman origin:  render/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+ToonAvatarDetailPanel None
+entering active SC menu
+ToonAvatarDetailPanel None
+ignoring InputState-forward
+{402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1340A710>, 401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x13511F80>}
+entering active SC menu
+local
+1
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+ignoring InputState-forward
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x13511F80>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x13511F80>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x13511F80>}

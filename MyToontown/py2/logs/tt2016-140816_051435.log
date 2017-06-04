@@ -1,0 +1,86 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+[(1280, 800), (1152, 720), (1024, 768), (1024, 640), (800, 600), (800, 500), (640, 480), (720, 480)]
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tt2016-dev
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1270d7fc8>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1270d7fc8>}
+entering active SC menu
+local
+0
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+entering active SC menu
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage_TT.dna
+Reading DNA file... phase_4/dna/storage_TT_sz.dna
+Reading DNA file... phase_4/dna/toontown_central_sz.dna
+fisherman origin:  render/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+Reading DNA file... phase_5/dna/storage_town.dna
+Reading DNA file... phase_5/dna/storage_TT_town.dna
+Reading DNA file... phase_5/dna/toontown_central_2200.dna
+DNALandmarkBuilding sb42:toon_landmark_hqTT_DNARoot did not find **/*suit_building_origin
+frame rate: 14.3 fps|0.017d|1 avs||382|405||0x0000|0x0000|0.0MB|0.0MB|0.0MB|0|darwin.4.10.9|0.000,0.000|0,0 cpus|OpenGL
+Traceback (most recent call last):
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 108, in processEvent
+    for i in range(event.getNumParameters()):
+  File "toontown/battle/DistributedBattleBase.py", line 343, in setState
+    self.fsm.request(state, [globalClockDelta.localElapsedTime(timestamp)])
+  File "/Developer/Panda3D/direct/fsm/ClassicFSM.py", line 284, in request
+    exitArgList)
+  File "/Developer/Panda3D/direct/fsm/ClassicFSM.py", line 231, in __transition
+    self.__enter(aState, enterArgList)
+  File "/Developer/Panda3D/direct/fsm/ClassicFSM.py", line 217, in __enter
+    aState.enter(argList)
+  File "/Developer/Panda3D/direct/fsm/State.py", line 203, in enter
+    apply(self.__enterFunc, argList)
+  File "toontown/battle/DistributedBattleBase.py", line 1054, in enterWaitForInput
+    self.__adjustTownBattle()
+  File "toontown/battle/DistributedBattleBase.py", line 1387, in __adjustTownBattle
+    self.townBattle.adjustCogsAndToons(self.activeSuits, luredSuits, trappedSuits, self.activeToons)
+  File "toontown/town/TownBattle.py", line 468, in adjustCogsAndToons
+    base.localAvatar.inventory.setBattleCreditMultiplier(self.creditMultiplier)
+AttributeError: TownBattle instance has no attribute 'creditMultiplier'
+Traceback (most recent call last):
+  File "/Developer/Panda3D/direct/showbase/ShowBase.py", line 1656, in updateManagers
+    self.particleMgr.doParticles(dt)
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "/Developer/Panda3D/direct/showbase/EventManager.py", line 108, in processEvent
+    for i in range(event.getNumParameters()):
+  File "toontown/battle/DistributedBattleBase.py", line 343, in setState
+    self.fsm.request(state, [globalClockDelta.localElapsedTime(timestamp)])
+  File "/Developer/Panda3D/direct/fsm/ClassicFSM.py", line 284, in request
+    exitArgList)
+  File "/Developer/Panda3D/direct/fsm/ClassicFSM.py", line 231, in __transition
+    self.__enter(aState, enterArgList)
+  File "/Developer/Panda3D/direct/fsm/ClassicFSM.py", line 217, in __enter
+    aState.enter(argList)
+  File "/Developer/Panda3D/direct/fsm/State.py", line 203, in enter
+    apply(self.__enterFunc, argList)
+  File "toontown/battle/DistributedBattleBase.py", line 1054, in enterWaitForInput
+    self.__adjustTownBattle()
+  File "toontown/battle/DistributedBattleBase.py", line 1387, in __adjustTownBattle
+    self.townBattle.adjustCogsAndToons(self.activeSuits, luredSuits, trappedSuits, self.activeToons)
+  File "toontown/town/TownBattle.py", line 468, in adjustCogsAndToons
+    base.localAvatar.inventory.setBattleCreditMultiplier(self.creditMultiplier)
+AttributeError: TownBattle instance has no attribute 'creditMultiplier'
+entering active SC menu
+ignoring InputState-forward

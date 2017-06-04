@@ -1,0 +1,124 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tt2016-dev
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x143E96E8>}
+entering active SC menu
+local
+0
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+Reading DNA file... phase_4/dna/storage_TT.dna
+Reading DNA file... phase_4/dna/storage_TT_sz.dna
+Reading DNA file... phase_4/dna/toontown_central_sz.dna
+fisherman origin:  render/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_5/dna/storage_town.dna
+Reading DNA file... phase_5/dna/storage_TT_town.dna
+Reading DNA file... phase_5/dna/toontown_central_2300.dna
+DNALandmarkBuilding sb32:toon_landmark_hqTT_DNARoot did not find **/*suit_building_origin
+frame rate: 20.4 fps|0.024d|1 avs||380|397||0x15ad|0x0405|358.8MB|502.1MB|1023.5MB|406|nt.2.6.1|2.295,2.295|1,1 cpus|OpenGL
+Battle Event localtoon-battle-event-3
+Battle Event localtoon-battle-event-9
+chooseFireOpenShot <function allGroupLowShot at 0x102BD570>
+chooseFireOpenShot <function suitGroupThreeQuarterLeftBehindShot at 0x102BD6F0>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+chooseFireOpenShot <function avatarBehindShot at 0x102BD970>
+chooseFireOpenShot <function suitGroupThreeQuarterLeftBehindShot at 0x102BD6F0>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+chooseFireOpenShot <function avatarBehindShot at 0x102BD970>
+chooseFireOpenShot <function allGroupLowShot at 0x102BD570>
+entering active SC menu
+frame rate: 18.4 fps|0.030d|2 avs||680|697||0x15ad|0x0405|344.0MB|515.4MB|1023.5MB|412|nt.2.6.1|2.295,2.295|1,1 cpus|OpenGL
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+frame rate: 13.6 fps|0.049d|7 avs||980|997||0x15ad|0x0405|355.1MB|523.5MB|1023.5MB|415|nt.2.6.1|2.295,2.295|1,1 cpus|OpenGL
+fisherman origin:  render/town_top_level/toontownCentral/2341/fishing_pond_1/npc_fisherman_origin_0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+frame rate: 18.6 fps|0.089d|5 avs||1280|1297||0x15ad|0x0405|348.3MB|547.4MB|1023.5MB|421|nt.2.6.1|2.295,2.295|1,1 cpus|OpenGL
+ignoring InputState-forward
+{}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x144DC2D8>}
+entering active SC menu
+local
+0
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Battle Event localtoon-battle-event-15
+entering active SC menu
+entering active SC menu
+Traceback (most recent call last):
+  File "C:\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1873, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1480, in handlePlayGame
+    self.handleGenerateWithRequired(di)
+  File "otp\distributed\OTPClientRepository.py", line 1944, in handleGenerateWithRequired
+    distObj = self.generateWithRequiredFields(dclass, doId, di, parentId, zoneId)
+  File "C:\Panda3D-1.9.0\direct\distributed\ClientRepositoryBase.py", line 265, in generateWithRequiredFields
+    distObj.updateRequiredFields(dclass, di)
+  File "C:\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 337, in updateRequiredFields
+    self.announceGenerate()
+  File "toontown\building\DistributedDoor.py", line 203, in announceGenerate
+    self.doPostAnnounceGenerate()
+  File "toontown\building\DistributedDoor.py", line 210, in doPostAnnounceGenerate
+    self.bHasFlat = not self.findDoorNode('door*flat', True).isEmpty()
+AttributeError: 'NoneType' object has no attribute 'isEmpty'
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 239, in run
+    taskMgr.run()
+  File "C:\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "C:\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "C:\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1873, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1480, in handlePlayGame
+    self.handleGenerateWithRequired(di)
+  File "otp\distributed\OTPClientRepository.py", line 1944, in handleGenerateWithRequired
+    distObj = self.generateWithRequiredFields(dclass, doId, di, parentId, zoneId)
+  File "C:\Panda3D-1.9.0\direct\distributed\ClientRepositoryBase.py", line 265, in generateWithRequiredFields
+    distObj.updateRequiredFields(dclass, di)
+  File "C:\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 337, in updateRequiredFields
+    self.announceGenerate()
+  File "toontown\building\DistributedDoor.py", line 203, in announceGenerate
+    self.doPostAnnounceGenerate()
+  File "toontown\building\DistributedDoor.py", line 210, in doPostAnnounceGenerate
+    self.bHasFlat = not self.findDoorNode('door*flat', True).isEmpty()
+AttributeError: 'NoneType' object has no attribute 'isEmpty'

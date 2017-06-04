@@ -1,0 +1,41 @@
+
+LIST CREATED BY MISTER SORRY / ALEX
+
+usage:
+~glasses 0 1
+
+0 = type
+1 = texture
+
+types:
+
+0        none
+1        roundGlasses
+2        miniblinds
+3        narrowGlasses
+4        starGlasses
+5        3dGlasses
+6        aviator
+7        catEyeGlasses
+8        dorkGlasses
+9        jackieOShades
+10        scubaMask
+11        goggles
+12        grouchoMarxEyebrow
+13        heartGlasses
+14        insectEyeGlasses
+15        masqueradeTypeMask
+16        masqueradeTypeMask3
+17        monocle
+18        mouthGlasses
+19        squareRims
+20        eyepatch
+21        alienGlasses
+
+textures:
+
+0        none
+1        masqueradeTypeMask2.jpg
+2        masqueradeTypeMask4.jpg
+3        masqueradeTypeMask5.jpg
+4        eyepatchGems.jpg

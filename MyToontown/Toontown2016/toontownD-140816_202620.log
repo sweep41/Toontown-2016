@@ -1,0 +1,20 @@
+
+
+Starting Toontown...
+Current time: Sat Aug 16 20:26:20 2014 EST
+sys.path =  ['', '/usr/lib/python27.zip', '/usr/lib/python2.7', '/usr/lib/python2.7/plat-darwin', '/usr/lib/python2.7/plat-mac', '/usr/lib/python2.7/plat-mac/lib-scriptpackages', '/usr/Extras/lib/python', '/usr/lib/python2.7/lib-tk', '/usr/lib/python2.7/lib-old', '/usr/lib/python2.7/lib-dynload', '/Library/Python/2.7/site-packages', '/Developer/Panda3D']
+sys.argv =  ['/Users/mauriceflannery/Documents/MyToontown/Toontown2016/toontown/toonbase/ToontownStartWithInjector.py']
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/Users/mauriceflannery/Documents/MyToontown/Toontown2016/toontown/toonbase/ToontownStartWithInjector.py", line 57, in <module>
+    launcher = ToontownLauncher()
+  File "toontown/launcher/ToontownLauncher.py", line 57, in __init__
+    if sys.argv[2] == 'Phase2.py':
+IndexError: list index out of range

@@ -1,0 +1,47 @@
+
+LIST CREATED BY MISTER SORRY/ALEX
+
+
+usage:
+~backpack 1 0
+
+1 = type
+0 = texture
+
+types:
+
+0           none
+1           backpack
+2           batWings
+3           beeWings
+4           dragonFlyWings
+5           scubaTank
+6           sharkFin
+7           angelWings
+8           backpackWithToys
+9           butterflyWings
+10           dragonWing
+11           jetPack
+12           spiderLegs
+13           stuffedAnimalBackpackA
+14           birdWings
+15           stuffedAnimalBackpackCat
+16           stuffedAnimalBackpackDog
+17           airplane
+18           woodenSword
+19           supertoonCape
+20           vampireCape
+21           dinosaurTail
+22           band
+23           gags
+24           flunky
+
+textures:
+
+0           none
+1           backpackOrange.jpg
+2           backpackPurple.jpg
+3           backpackPolkaDotRed.jpg
+4           backpackPolkaDotYellow.jpg
+5           angelWingsMultiColor.jpg
+6           butterflyWingsStyle2.jpg

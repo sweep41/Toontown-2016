@@ -1,0 +1,65 @@
+LIST MADE BY MISTER SORRY / ALEX
+
+usage:
+~shoes 0 1
+
+0 = type, 1 = texture
+
+types:
+
+0   no shoes
+1   shoes
+2   boots_short
+3   boots_long
+
+textures:
+
+0           athleticGreen.jpg
+1           athleticRed.jpg
+2           docMartinBootsGreen.jpg
+3           converseStyleGreen.jpg
+4           wingtips.jpg
+5           maryJaneShoes.jpg
+6           deckShoes.jpg
+7           athleticYellow.jpg
+8           converseStyleBlack.jpg
+9           converseStyleWhite.jpg
+10           converseStylePink.jpg
+11           cowboyBoots.jpg
+12           fashionBootsPurple.jpg
+13           hiTopSneakers.jpg
+14           maryJaneShoesBrown.jpg
+15           maryJaneShoesRed.jpg
+16           superToonRedBoots.jpg
+17           tennisShoesGreen.jpg
+18           tennisShoesPink.jpg
+19           converseStyleRed.jpg
+20           docMartinBootsAqua.jpg
+21           docMartinBootsBrown.jpg
+22           docMartinBootsYellow.jpg
+23           fashionBootsBlueSquares.jpg
+24           fashionBootsGreenHearts.jpg
+25           fashionBootsGreyDots.jpg
+26           fashionBootsOrangeStars.jpg
+27           fashionBootsPinkStars.jpg
+28           loafers.jpg
+29           maryJaneShoesPurple.jpg
+30           motorcycleBoots.jpg
+31           oxfords.jpg
+32           rainBootsPink.jpg
+33           santaBoots.jpg
+34           winterBootsBeige.jpg
+35           winterBootsPink.jpg
+36           workBoots.jpg
+37           converseStyleYellow.jpg
+38           docMartinBootsPink.jpg
+39           hiTopSneakersPink.jpg
+40           rainBootsRedDots.jpg
+41           tennisShoesPurple.jpg
+42           tennisShoesViolet.jpg
+43           tennisShoesYellow.jpg
+44           rainBootsBlue.jpg
+45           rainBootsYellow.jpg
+46           athleticBlack.jpg
+47           pirate.jpg
+48           dinosaur.jpg

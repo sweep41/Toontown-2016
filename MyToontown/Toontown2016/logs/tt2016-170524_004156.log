@@ -1,0 +1,69 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+[(1280, 800), (1152, 720), (1024, 768), (1024, 640), (800, 600), (800, 500), (640, 480), (720, 480)]
+ToontownStart: serverVersion:  tt2016-dev
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x12b55efc8>}
+entering active SC menu
+local
+Traceback (most recent call last):
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 609, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 616, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1871, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1765, in handleMessageType
+    self.handleGenerateWithRequiredOtherOwner(di)
+  File "toontown/distributed/ToontownClientRepository.py", line 910, in handleGenerateWithRequiredOtherOwner
+    self.handleAvatarResponseMsg(doId, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 363, in handleAvatarResponseMsg
+    localAvatar.initInterface()
+  File "toontown/toon/LocalToon.py", line 368, in initInterface
+    self.addKartPage()
+  File "toontown/toon/LocalToon.py", line 439, in addKartPage
+    self.kartPage.load()
+  File "toontown/shtiker/KartPage.py", line 48, in load
+    self.kartCustomizer.load()
+  File "toontown/shtiker/KartPage.py", line 134, in load
+    self.itemSelector = ItemSelector(self.avatar, parent=self)
+  File "toontown/shtiker/KartPage.py", line 620, in __init__
+    self.parent = parent
+AttributeError: attribute 'parent' of 'panda3d.core.NodePath' objects is not writable
+Traceback (most recent call last):
+  File "otp/otpbase/OTPBase.py", line 239, in run
+    taskMgr.run()
+  File "/Developer/Panda3D/direct/task/Task.py", line 517, in run
+    self.step()
+  File "/Developer/Panda3D/direct/task/Task.py", line 471, in step
+    self.mgr.poll()
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 609, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "/Developer/Panda3D/direct/distributed/ConnectionRepository.py", line 616, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1871, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1765, in handleMessageType
+    self.handleGenerateWithRequiredOtherOwner(di)
+  File "toontown/distributed/ToontownClientRepository.py", line 910, in handleGenerateWithRequiredOtherOwner
+    self.handleAvatarResponseMsg(doId, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 363, in handleAvatarResponseMsg
+    localAvatar.initInterface()
+  File "toontown/toon/LocalToon.py", line 368, in initInterface
+    self.addKartPage()
+  File "toontown/toon/LocalToon.py", line 439, in addKartPage
+    self.kartPage.load()
+  File "toontown/shtiker/KartPage.py", line 48, in load
+    self.kartCustomizer.load()
+  File "toontown/shtiker/KartPage.py", line 134, in load
+    self.itemSelector = ItemSelector(self.avatar, parent=self)
+  File "toontown/shtiker/KartPage.py", line 620, in __init__
+    self.parent = parent
+AttributeError: attribute 'parent' of 'panda3d.core.NodePath' objects is not writable

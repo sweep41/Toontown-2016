@@ -1,0 +1,26 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tt2016-dev
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x143F86E8>}
+entering active SC menu
+local
+0
+Reading DNA file... phase_3.5/dna/storage_tutorial.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+Reading DNA file... phase_3.5/dna/tutorial_street.dna
+Hello there im a distributedTutorialInteriorAI
+Setting up Toontorial dna! :D
+Reading DNA file... phase_3.5/dna/tutorial_street.dna
+chatButtonPressed
+frame rate: 28.2 fps|0.011d|1 avs||385|389||0x15ad|0x0405|298.8MB|387.0MB|1023.5MB|187|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+Battle Event localtoon-battle-event-3
+ignoring InputState-forward

@@ -1,0 +1,12 @@
+<0f00740101010103030303070211001111>
+
+or
+
+~dna toptex 3 
+~dna toptexcolor 3 
+~dna sleevetex 3 
+~dna sleevetexcolor 3 
+~dna bottex 7 
+~dna bottexcolor 2 
+~dna color 17
+~name Flippy

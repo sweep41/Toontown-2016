@@ -1,0 +1,65 @@
+@magicWord(category=CATEGORY_ADMINISTRATOR, types=[str])
+def maxToon(missingTrack=None):
+    """
+    Max the invoker's stats for end-level gameplay.
+    """
+    invoker = spellbook.getInvoker()
+
+    # First, unlock the invoker's Gag tracks:
+    gagTracks = [1, 1, 1, 1, 1, 1, 1]
+    if missingTrack is not None:
+        try:
+            index = ('toonup', 'trap', 'lure', 'sound', 'throw',
+                     'squirt', 'drop').index(missingTrack)
+        except:
+            return 'Missing Gag track is invalid!'
+        if index in (4, 5):
+            return 'You are required to have Throw and Squirt.'
+        gagTracks[index] = 0
+    invoker.b_setTrackAccess(gagTracks)
+    invoker.b_setMaxCarry(80)
+
+    # Next, max out their experience for the tracks they have:
+    experience = Experience.Experience(invoker.getExperience(), invoker)
+    for i, track in enumerate(invoker.getTrackAccess()):
+        if track:
+            experience.experience[i] = (
+                Experience.MaxSkill - Experience.UberSkill)
+    invoker.b_setExperience(experience.makeNetString())
+
+    # Max out their Laff:
+    invoker.b_setMaxHp(137)
+    invoker.toonUp(invoker.getMaxHp() - invoker.hp)
+
+    # Max out their Cog suits:
+    invoker.b_setCogParts(
+        [
+            CogDisguiseGlobals.PartsPerSuitBitmasks[0],  # Bossbot
+            CogDisguiseGlobals.PartsPerSuitBitmasks[1],  # Lawbot
+            CogDisguiseGlobals.PartsPerSuitBitmasks[2],  # Cashbot
+            CogDisguiseGlobals.PartsPerSuitBitmasks[3]   # Sellbot
+        ]
+    )
+    invoker.b_setCogLevels([49] * 4)
+    invoker.b_setCogTypes([7, 7, 7, 7])
+
+    # Max out their racing tickets:
+    invoker.b_setTickets(99999)
+
+    # Give them teleport access everywhere (including Cog HQs):
+    hoods = list(ToontownGlobals.HoodsForTeleportAll)
+    invoker.b_setHoodsVisited(hoods)
+    invoker.b_setTeleportAccess(hoods)
+
+    # Max their quest carry limit:
+    invoker.b_setQuestCarryLimit(4)
+
+    # Complete their quests:
+    # TODO: Set quest history and rewards.
+
+    # Max their money:
+    invoker.b_setMaxMoney(250)
+    invoker.b_setMoney(invoker.getMaxMoney())
+    invoker.b_setBankMoney(12000)
+
+    return 'Maxed your Toon!'

@@ -1,0 +1,7 @@
+from otp.ai.MagicWordGlobal import *
+@magicWord(category=CATEGORY_ADMINISTRATOR)
+def endMaze():
+    if hasattr(simbase.air, 'cogdoGame'):
+        maze = simbase.air.cogdoGame
+        maze.doAction(CogdoMazeGameGlobals.GameActions.OpenDoor, 0)
+        return 'Finishing maze...'

@@ -1,0 +1,16 @@
+First run the "Increase TCP Buffer Size..." batch file or else the AI server will crash.
+
+Copy the Panda3D folder provided to the root of your C: drive, or use the installer.
+
+Install the python-2.7 included.
+
+Install Visual Studio Express (vns_full).
+
+Once all of that is done, run the astron server, then uberdog (press enter on the basechannel prompt), then run the AI server (press enter on both prompts).
+
+You must figure out the rest (login tokens etc.) The localhost client should work. The websites api files are included but will need some tweaking. So will toontown>toonbase>ToontownStartRemote.py.
+
+Please note that you will need an appropriate php server such as apache to serve php requests.
+
+
+IF YOU ARE ONLY RUNNING A CLIENT YOU DO NOT HAVE TO INSTALL "vns_full" OR RUN THE TCP BUFFER PATCH.

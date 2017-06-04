@@ -1,0 +1,108 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tt2016-dev
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1352A710>}
+entering active SC menu
+local
+0
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_8/dna/storage_BR.dna
+Reading DNA file... phase_8/dna/storage_BR_sz.dna
+Reading DNA file... phase_8/dna/the_burrrgh_sz.dna
+empty flat building with no walls
+DNALandmarkBuilding sb11:toon_landmark_BR_pet_shop_DNARoot did not find **/*suit_building_origin
+fisherman origin:  render/loader_data/theBurrrgh/fishing_pond_1/npc_fisherman_origin_0
+Reading DNA file... phase_5/dna/storage_town.dna
+Reading DNA file... phase_8/dna/storage_BR_town.dna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.dna
+entering active SC menu
+entering active SC menu
+Battle Event localtoon-battle-event-3
+frame rate: 19.8 fps|0.123d|11 avs||397|479||0x15ad|0x0405|414.7MB|503.4MB|1023.5MB|407|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+chooseFireOpenShot <function avatarCloseUpThreeQuarterRightShot at 0x0F0A4830>
+chooseFireOpenShot <function avatarCloseUpThreeQuarterLeftFireShot at 0x0F0A4DF0>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+Reading DNA file... phase_5/dna/storage_town.dna
+Reading DNA file... phase_8/dna/storage_BR_town.dna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.dna
+frame rate: 11.0 fps|0.071d|10 avs||697|779||0x15ad|0x0405|456.7MB|589.3MB|1023.5MB|429|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage_TT.dna
+Reading DNA file... phase_4/dna/storage_TT_sz.dna
+Reading DNA file... phase_4/dna/toontown_central_sz.dna
+fisherman origin:  render/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+Reading DNA file... phase_5/dna/storage_town.dna
+Reading DNA file... phase_5/dna/storage_TT_town.dna
+Reading DNA file... phase_5/dna/toontown_central_2300.dna
+DNALandmarkBuilding sb32:toon_landmark_hqTT_DNARoot did not find **/*suit_building_origin
+frame rate: 17.5 fps|0.041d|2 avs||997|1079||0x15ad|0x0405|508.8MB|729.6MB|1023.5MB|531|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+entering active SC menu
+Battle Event localtoon-battle-event-8
+### newVec3 =  LVector3f(2, 5.3, 1.5)
+### newVec3 =  LVector3f(2, 5.3, 0)
+### newVec3 =  LVector3f(2, 5.3, 0.375)
+### newVec3 =  LVector3f(2, 5.3, 0)
+Battle Event localtoon-battle-event-13
+entering active SC menu
+Battle Event localtoon-battle-event-18
+frame rate: 22.1 fps|0.039d|5 avs||1297|1379||0x15ad|0x0405|488.7MB|735.8MB|1023.5MB|539|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+entering active SC menu
+Battle Event localtoon-battle-event-23
+frame rate: 25.5 fps|0.032d|6 avs||1597|1679||0x15ad|0x0405|399.8MB|743.6MB|1023.5MB|544|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+Battle Event localtoon-battle-event-28
+chooseFireOpenShot <function avatarCloseUpThrowShot at 0x0F0A47F0>
+chooseFireOpenShot <function avatarCloseUpFireShot at 0x0F0A4DB0>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+### newVec3 =  LVector3f(2, 10.3, 1.5)
+### newVec3 =  LVector3f(2, 10.3, 0)
+### newVec3 =  LVector3f(2, 10.3, 0.375)
+### newVec3 =  LVector3f(2, 10.3, 0)
+### newVec3 =  LVector3f(2, 10.3, 1.5)
+### newVec3 =  LVector3f(2, 10.3, 0)
+### newVec3 =  LVector3f(2, 10.3, 0.375)
+### newVec3 =  LVector3f(2, 10.3, 0)
+### newVec3 =  LVector3f(2, 10.3, 1.5)
+### newVec3 =  LVector3f(2, 10.3, 0)
+### newVec3 =  LVector3f(2, 10.3, 0.375)
+### newVec3 =  LVector3f(2, 10.3, 0)
+### newVec3 =  LVector3f(2, 10.3, 1.5)
+### newVec3 =  LVector3f(2, 10.3, 0)
+### newVec3 =  LVector3f(2, 10.3, 0.375)
+### newVec3 =  LVector3f(2, 10.3, 0)
+### newVec3 =  LVector3f(2, 5.3, 1.5)
+### newVec3 =  LVector3f(2, 5.3, 0)
+### newVec3 =  LVector3f(2, 5.3, 0.375)
+### newVec3 =  LVector3f(2, 5.3, 0)
+Reading DNA file... phase_5/dna/storage_town.dna
+Reading DNA file... phase_5/dna/storage_TT_town.dna
+Reading DNA file... phase_5/dna/toontown_central_2300.dna
+DNALandmarkBuilding sb32:toon_landmark_hqTT_DNARoot did not find **/*suit_building_origin
+entering active SC menu
+frame rate: 12.5 fps|0.217d|3 avs||1898|1980||0x15ad|0x0405|400.1MB|826.4MB|1023.5MB|575|nt.2.6.1|2.294,2.294|1,1 cpus|OpenGL
+Battle Event localtoon-battle-event-33
+Reading DNA file... phase_5/dna/storage_town.dna
+Reading DNA file... phase_5/dna/storage_TT_town.dna
+Reading DNA file... phase_5/dna/toontown_central_2300.dna
+DNALandmarkBuilding sb32:toon_landmark_hqTT_DNARoot did not find **/*suit_building_origin
+entering active SC menu
