@@ -17,9 +17,9 @@ class BRSafeZoneLoader(SafeZoneLoader.SafeZoneLoader):
 
     def load(self):
         SafeZoneLoader.SafeZoneLoader.load(self)
-        self.wind1Sound = base.loadSfx('phase_8/audio/sfx/SZ_TB_wind_1.ogg')
-        self.wind2Sound = base.loadSfx('phase_8/audio/sfx/SZ_TB_wind_2.ogg')
-        self.wind3Sound = base.loadSfx('phase_8/audio/sfx/SZ_TB_wind_3.ogg')
+        self.wind1Sound = base.loader.loadSfx('phase_8/audio/sfx/SZ_TB_wind_1.ogg')
+        self.wind2Sound = base.loader.loadSfx('phase_8/audio/sfx/SZ_TB_wind_2.ogg')
+        self.wind3Sound = base.loader.loadSfx('phase_8/audio/sfx/SZ_TB_wind_3.ogg')
         self.snow = BattleParticles.loadParticleFile('snowdisk.ptf')
         self.snow.setPos(0, 0, 5)
         self.snowRender = self.geom.attachNewNode('snowRender')
