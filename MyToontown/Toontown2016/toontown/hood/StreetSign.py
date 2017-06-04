@@ -53,7 +53,7 @@ class StreetSign(DistributedObject.DistributedObject):
             taskMgr.add(self.downloadStreetSignTask, self.RedownloadTaskName)
 
     def downloadStreetSignTask(self, task):
-        if self.ch.run():
+        if self.ch.base.run():
             return task.cont
         doc = self.ch.getDocumentSpec()
         date = ''

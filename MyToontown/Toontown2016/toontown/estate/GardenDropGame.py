@@ -94,7 +94,7 @@ class GardenDropGame(DirectObject.DirectObject):
         self.newBallCountUp = 0.0
         self.cogX = 0
         self.cogZ = 0
-        self.__run()
+        self.__base.run()
         return
 
     def findGrid(self, x, z, force = 0):

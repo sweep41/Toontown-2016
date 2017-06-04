@@ -108,7 +108,7 @@ class DistributedLaserFieldAI(BattleBlockerAI.BattleBlockerAI, NodePath, BasicEn
                     distance = self.getDistance(av)
             if isThereAnyToons:
                 taskMgr.doMethodLater(1.0, self._DistributedLaserFieldAI__detect, self.detectName)
-                self._DistributedLaserFieldAI__run()
+                self._DistributedLaserFieldAI__base.run()
         return Task.done
 
     def hit(self, hitX, hitY, oldX, oldY):

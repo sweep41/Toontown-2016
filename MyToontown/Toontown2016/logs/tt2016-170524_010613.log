@@ -79,7 +79,7 @@ Traceback (most recent call last):
 AssertionError: !_center.is_nan() && !cnan(_radius) at line 29 of built/include/boundingSphere.I
 Traceback (most recent call last):
   File "otp/otpbase/OTPBase.py", line 239, in run
-    taskMgr.run()
+    taskMgr.base.run()
   File "/Developer/Panda3D/direct/task/Task.py", line 517, in run
     self.step()
   File "/Developer/Panda3D/direct/task/Task.py", line 471, in step

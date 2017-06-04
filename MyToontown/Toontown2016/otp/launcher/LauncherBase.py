@@ -484,7 +484,7 @@ class LauncherBase(DirectObject):
 
     def downloadTask(self, task):
         self.maybeStartGame()
-        if self.httpChannel.run():
+        if self.httpChannel.base.run():
             now = self.getTime()
             if now - task.lastUpdate >= self.UserUpdateDelay:
                 task.lastUpdate = now
@@ -615,7 +615,7 @@ class LauncherBase(DirectObject):
 
     def downloadMultifileTask(self, task):
         task.totalSize = self.httpChannel.getFileSize()
-        if self.httpChannel.run():
+        if self.httpChannel.base.run():
             now = self.getTime()
             if now - task.lastUpdate >= self.UserUpdateDelay:
                 task.lastUpdate = now
@@ -682,7 +682,7 @@ class LauncherBase(DirectObject):
             self.handleInitiateFatalError(errorCode)
 
     def decompressFileTask(self, task):
-        errorCode = task.decompressor.run()
+        errorCode = task.decompressor.base.run()
         if errorCode == EUOk:
             now = self.getTime()
             if now - task.lastUpdate >= self.UserUpdateDelay:
@@ -739,7 +739,7 @@ class LauncherBase(DirectObject):
             self.handleInitiateFatalError(errorCode)
 
     def decompressMultifileTask(self, task):
-        errorCode = task.decompressor.run()
+        errorCode = task.decompressor.base.run()
         if errorCode == EUOk:
             now = self.getTime()
             if now - task.lastUpdate >= self.UserUpdateDelay:
@@ -876,7 +876,7 @@ class LauncherBase(DirectObject):
             self.handleInitiateFatalError(errorCode)
 
     def patchTask(self, task):
-        errorCode = task.patcher.run()
+        errorCode = task.patcher.base.run()
         if errorCode == EUOk:
             now = self.getTime()
             if now - task.lastUpdate >= self.UserUpdateDelay:
@@ -1050,9 +1050,9 @@ class LauncherBase(DirectObject):
 
     def _runTaskManager(self):
         if not self.taskMgrStarted:
-            self.miniTaskMgr.run()
+            self.miniTaskMgr.base.run()
             self.notify.info('Switching task managers.')
-        taskMgr.run()
+        taskMgr.base.run()
 
     def _stepMiniTaskManager(self, task):
         self.miniTaskMgr.step()

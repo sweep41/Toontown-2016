@@ -44,7 +44,7 @@ if ':' in host:
 simbase.air.connect(host, port)
 
 try:
-    run()
+    base.run()
 except SystemExit:
     raise
 except Exception:

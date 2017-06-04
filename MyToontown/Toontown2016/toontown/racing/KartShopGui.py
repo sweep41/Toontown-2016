@@ -990,4 +990,4 @@ class KartShopGuiMgr(object, DirectObject.DirectObject):
                     pass
 
             m = Main()
-            run()
+            base.run()

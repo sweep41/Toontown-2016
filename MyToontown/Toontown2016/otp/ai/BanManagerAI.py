@@ -59,7 +59,7 @@ class BanManagerAI:
         banReq = task.banRequestNum
         channel = self.channels.get(banReq)
         if channel:
-            if channel.run():
+            if channel.base.run():
                 return task.cont
         else:
             self.notify.warning('no channel for ban req %s' % banReq)

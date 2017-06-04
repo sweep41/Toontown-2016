@@ -38,7 +38,7 @@ Traceback (most recent call last):
 KeyError: 401003602
 Traceback (most recent call last):
   File "otp\otpbase\OTPBase.py", line 239, in run
-    taskMgr.run()
+    taskMgr.base.run()
   File "C:\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
     self.step()
   File "C:\Panda3D-1.9.0\direct\task\Task.py", line 460, in step

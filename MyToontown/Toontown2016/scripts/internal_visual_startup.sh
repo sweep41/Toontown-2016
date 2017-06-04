@@ -2,7 +2,11 @@ cd ~/Documents/MyToontown/Toontown2016
 
 export ttiUsername=username
 export ttiPassword=password
-export TTI_PLAYCOOKIE=sweep
+
+echo -n 'Username: '
+read username
+
+export TTI_PLAYCOOKIE=$username
 export TTI_GAMESERVER=127.0.0.1
 
 #rem Read the contents of PPYTHON_PATH into %PPYTHON_PATH%:

@@ -451,7 +451,7 @@ class DistributedGolfGreenGame(BattleBlocker.BattleBlocker):
         self.updateSpritePos()
         self.killSprite(self.controlSprite)
         self.accept('mouse1', self.__handleMouseClick)
-        self.__run()
+        self.__base.run()
 
     def startCountDown(self):
         if self.countDownRunning == 0:

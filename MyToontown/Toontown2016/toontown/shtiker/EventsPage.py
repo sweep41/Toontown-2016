@@ -1035,7 +1035,7 @@ class EventsPage(ShtikerPage.ShtikerPage):
         taskMgr.remove(self.DownloadArticlesTaskName)
 
     def pollDownloadTask(self, task):
-        result = self.nonBlock.run()
+        result = self.nonBlock.base.run()
         if result == 0:
             self.stopCheckingAsyncRequest()
             allOk = False

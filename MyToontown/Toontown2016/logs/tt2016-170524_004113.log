@@ -35,7 +35,7 @@ Traceback (most recent call last):
 TypeError: C++ object is not yet constructed, or already destructed.
 Traceback (most recent call last):
   File "otp/otpbase/OTPBase.py", line 239, in run
-    taskMgr.run()
+    taskMgr.base.run()
   File "/Developer/Panda3D/direct/task/Task.py", line 517, in run
     self.step()
   File "/Developer/Panda3D/direct/task/Task.py", line 471, in step

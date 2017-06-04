@@ -305,7 +305,7 @@ class UserFunnel:
         taskMgr.remove('pollFunnelTask')
 
     def pollFunnelTask(self, task):
-        result = self.nonBlock.run()
+        result = self.nonBlock.base.run()
         if result == 0:
             self.stopCheckingFunnelTask(task)
             if self.CurrentHost == 1 or self.CurrentHost == 2:
@@ -322,7 +322,7 @@ def logSubmit(setHostID, setMileStone):
     trackItem.setmilestone(setMileStone)
     trackItem.setHost(setHostID)
     trackItem.prerun()
-    trackItem.run()
+    trackItem.base.run()
 
 
 def getVRSFunnelURL():

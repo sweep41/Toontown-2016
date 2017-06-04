@@ -243,7 +243,7 @@ class DirectNewsFrame(DirectObject.DirectObject):
         return
 
     def downloadIndexTask(self, task):
-        if self.ch.run():
+        if self.ch.base.run():
             return task.cont
         if not self.ch.isValid():
             self.notify.warning('Unable to download %s' % self.url)
@@ -309,7 +309,7 @@ class DirectNewsFrame(DirectObject.DirectObject):
         taskMgr.add(self.downloadCurrentFileTask, self.RedownloadTaskName)
 
     def downloadCurrentFileTask(self, task):
-        if self.ch.run():
+        if self.ch.base.run():
             return task.cont
         if self.ch.getStatusCode() == 304:
             self.notify.info('already cached: %s' % self.filename)

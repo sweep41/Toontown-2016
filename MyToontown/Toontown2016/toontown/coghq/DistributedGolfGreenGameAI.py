@@ -308,7 +308,7 @@ class DistributedGolfGreenGameAI(BattleBlockerAI.BattleBlockerAI, NodePath, Basi
 
             if isThereAnyToons:
                 taskMgr.doMethodLater(1.0, self.__detect, self.detectName)
-                self.__run()
+                self.__base.run()
         return Task.done
 
     def __run(self):

@@ -1233,7 +1233,7 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.Dis
 
 
 @magicWord(category=CATEGORY_COMMUNITY_MANAGER)
-def run():
+def base.run():
     """
     Toggles debugging run speed.
     """

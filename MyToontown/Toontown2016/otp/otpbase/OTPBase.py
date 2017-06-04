@@ -236,7 +236,7 @@ class OTPBase(ShowBase):
 
     def run(self):
         try:
-            taskMgr.run()
+            taskMgr.base.run()
         except SystemExit:
             self.notify.info('Normal exit.')
             self.destroy()

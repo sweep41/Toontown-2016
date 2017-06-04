@@ -101,7 +101,7 @@ Traceback (most recent call last):
 NameError: global name 'NO_FADE_SORT_INDEX' is not defined
 Traceback (most recent call last):
   File "otp/otpbase/OTPBase.py", line 239, in run
-    taskMgr.run()
+    taskMgr.base.run()
   File "/Developer/Panda3D/direct/task/Task.py", line 517, in run
     self.step()
   File "/Developer/Panda3D/direct/task/Task.py", line 471, in step

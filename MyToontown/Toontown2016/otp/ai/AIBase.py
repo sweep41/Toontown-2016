@@ -176,4 +176,4 @@ class AIBase:
         return self.air
 
     def run(self):
-        self.taskMgr.run()
+        self.taskMgr.base.run()

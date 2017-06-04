@@ -127,7 +127,7 @@ class TTWhiteList(WhiteList, DistributedObject.DistributedObject):
         return realDir
 
     def downloadWhitelistTask(self, task):
-        if self.ch.run():
+        if self.ch.base.run():
             return task.cont
         doc = self.ch.getDocumentSpec()
         date = ''
